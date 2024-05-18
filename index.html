@@ -26,24 +26,6 @@
             font-weight: 700;
             margin: 0;
         }
-        header p {
-            font-weight: 400;
-        }
-        section {
-            padding: 160px 70px;
-            text-align: center;
-            animation: fadeIn 5s ease-out;
-        }
-        .intro, .contact {
-            background-color: #fff;
-        }
-        .services, .testimonials {
-            background-color: #f0f0f0;
-        }
-        h2 {
-            font-family: 'Playfair Display', serif;
-            color: #444;
-        }
         footer {
             background-color: #222;
             color: #fff;
@@ -51,177 +33,20 @@
             padding: 20px;
             font-size: 14px;
         }
-        a, a:visited {
-            color: #333;
-            text-decoration: none;
-        }
-
-
-        /* Fade-in animation */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        input[type="submit"], a {
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        input[type="submit"]:hover, a:hover {
-            background-color: #444; /* Change as needed */
-            color: #fff;
-        }
-        
-        form {
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #f4f4f4;
-            border-radius: 8px;
-        }
-        
-        input[type="text"], input[type="email"], textarea {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #333;
-            color: white;
-            cursor: pointer;
-        }
-        
-        section.hero img {
-            width: 100%;
-            height: 50vh; /* Adjust height */
-            object-fit: cover; /* Adjust as needed */
-        }
-
-        .reveal {
-            position: relative;
-            transform: translateY(20vh); /* Adjust as needed for effect */
-            opacity: 0;
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.6s;
-            visibility: hidden; /* Ensure they're not just transparent but also not "visible" */
-            
-        }
-        
-        .reveal.active {
-            transform: translateY(0);
-            opacity: 1;
-            visibility: visible;
-        }
-
-        @media only screen and (max-width: 768px) {
-            header, section, footer {
-                padding: 20px 10px;
-            }
-
-            section {
-                padding: 70px 10px;
-            }
-
-            h1, h2 {
-                font-size: 2.2em; /* Adjust text size for smaller screens */
-            }
-
-            form {
-                padding: 15px;
-            }
-
-            input[type="text"], input[type="email"], textarea, input[type="submit"] {
-                width: calc(100% - 30px); /* Adjust form elements for smaller screens */
-            }
-
-            section.hero img {
-                height: 30vh; /* Adjust hero image height for smaller screens */
-            }
-        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Bad Dates</h1>
-    <!-- <p>Curadoria refinada para eventos empresariais, pessoas, conteúdo e experiências.</p> -->
 </header>
     
-<section class="hero">
-    <img src="https://source.unsplash.com/random/1600x900?waves" alt="Plastic Ocean">
-</section>
-    
-<!-- <section class="intro reveal">
-    <h2>Quem Somos</h2>
-    <p>Explorando a essência da singularidade, "Same2x But Different" estabelece novos paradigmas em curadoria para experiências memoráveis.</p>
-</section> -->
-
-<!-- <section class="services reveal">
-    <h2>Nossos Serviços</h2>
-    <p>Um leque de serviços de curadoria personalizada, criando momentos que transcendem o convencional.</p>
-</section> -->
-
-<!-- <section class="contact reveal">
-    <h2>Contate-Nos</h2>
-    <p>Para descobrir mais ou iniciar sua experiência personalizada, entre em contato conosco.</p>
-    <form  id="contactForm">
-        <input type="text" id="name" name="name" placeholder="Seu Nome" required><br>
-        <input type="email" id="email" name="email" placeholder="Seu E-mail" required><br>
-        <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea><br>
-        <input type="submit" value="Enviar">
-    </form>
-</section> -->
-  
-<!-- <section class="testimonials reveal">
-    <h2>Depoimentos</h2>
-    <p>Impressões autênticas de nossos clientes sobre as jornadas inesquecíveis que compartilhamos.</p>
-</section> -->
     
 <footer>
     <p>&copy; 2024 Bad Dates. Todos os direitos reservados.</p>
 </footer>
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // Intersection Observer for Reveal on Scroll
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                    revealObserver.unobserve(entry.target); // Optional: Stop observing once active
-                }
-            });
-        }, {
-            threshold: 0.7, // Adjust to control when the reveal happens
-        });
 
-        // Apply observer to sections meant to reveal
-        document.querySelectorAll('section.reveal').forEach(section => {
-            revealObserver.observe(section);
-        });
-
-        // Preload and change hero image
-        const heroImage = document.querySelector('.hero img');
-        let currentImage = new Date().getTime();
-        const preloadImage = new Image();
-
-        setInterval(() => {
-            const nextImage = new Date().getTime();
-            preloadImage.src = 'https://source.unsplash.com/random/1600x900?waves+plastic&' + nextImage;
-
-            preloadImage.onload = () => {
-                heroImage.src = preloadImage.src;
-            };
-
-            currentImage = nextImage;
-        }, 3000);
-    });
+<script>
 </script>
 
 </body>
