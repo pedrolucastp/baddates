@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bad Dates</title>
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #333;
+        * {
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f8f8f8;
+        }
+        body {
             display: flex;
             flex-direction:column;
             height: 100dvh;
@@ -23,7 +21,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 69px;
+            height: 59px;
         }
         header h1 {
             text-align: center;
@@ -33,20 +31,57 @@
             font-size:16px;
             color: red;
         }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .hero {
+            background-color:red;
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        
+
         footer {
             background-color: #222;
-            color: #fff;
-            text-align: center;
             padding: 20px;
+        }
+        
+        footer p {
+            text-align: center;
             font-size: 14px;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Bad Dates</h1>
+    <div></div>
+    <h1>BAD DATES</h1>
+    <div>
+        <span>Home</span>
+        <span>A Autora</span>
+        <span>O Livro</span>
+        <span>Contato</span>
+    </div>
 </header>
+
+<main>
+    <div class="hero">
+        Felicidade do dia:
+        O teu nome não cabe numa lata de coca-cola.
+    </div>
+</main>
     
     
 <footer>
