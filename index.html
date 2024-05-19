@@ -5,65 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bad Dates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            display: flex;
-            padding: 0;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
+            display: flex;
             flex-direction: column;
-            height: 100dvh;
+            height: 100vh;
             justify-content: space-between;
+            background-color: #f5f5f5;
         }
 
         header {
             background-color: white;
-            padding: 0px 20px;
+            padding: 0 20px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             height: 59px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
-            text-align: center;
-            font-family: Helvetica, sans-serif;
+            font-size: 24px;
             font-weight: 700;
+            color: #e63946;
             margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        header nav span {
             font-size: 16px;
-            color: red;
+            color: #333;
+            cursor: pointer;
+            text-transform: uppercase;
         }
 
         main {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100%;
-            width: 100%;
+            flex-grow: 1;
         }
 
         .hero {
-            background-color: red;
+            background-color: #e63946;
             color: white;
-            font-size: 120px;
-            text-align: center;
+            font-size: 36px;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            text-transform: uppercase;
+            font-weight: 700;
             width: 100%;
             height: 100%;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-family: Helvetica, sans-serif;
         }
-
 
         footer {
             background-color: #222;
-            padding: 20px;
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         footer p {
             text-align: center;
             font-size: 14px;
             color: #fff;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            header nav span {
+                font-size: 14px;
+            }
+
+            .hero {
+                font-size: 60px;
+            }
         }
     </style>
 </head>
@@ -71,30 +101,24 @@
 <body>
 
     <header>
-        <div></div>
         <h1>BAD DATES</h1>
-        <div>
+        <nav>
             <span>Home</span>
             <span>A Autora</span>
             <span>O Livro</span>
             <span>Contato</span>
-        </div>
+        </nav>
     </header>
 
     <main>
         <div class="hero">
-            Felicidade do dia:
-            O teu nome não cabe numa lata de coca-cola.
+            Felicidade do dia: O teu nome não cabe numa lata de coca-cola.
         </div>
     </main>
-
 
     <footer>
         <p>&copy; 2024 Bad Dates. Todos os direitos reservados.</p>
     </footer>
-
-    <script>
-    </script>
 
 </body>
 
