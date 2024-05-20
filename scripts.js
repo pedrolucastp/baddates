@@ -42,6 +42,11 @@ function renderPoems() {
         const card = poemCardsContainer.children[currentPoem];
         expandCard(card, currentPoem);
         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+        poemCardsContainer.querySelectorAll('.poem-card').forEach(card => {
+            card.classList.remove('hidden', 'expanded');
+            card.querySelector('p').style.display = 'none';
+        });
     }
 }
 
