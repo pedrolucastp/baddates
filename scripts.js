@@ -19,6 +19,7 @@ function showSection(sectionId) {
     document.querySelectorAll('main > div').forEach(section => {
         section.style.display = section.id === sectionId ? 'flex' : 'none';
     });
+    setActiveNav(`nav-${sectionId}`);
 }
 
 function handleNavClick(navId, sectionId, renderFunction) {
@@ -29,6 +30,10 @@ function handleNavClick(navId, sectionId, renderFunction) {
         localStorage.removeItem('currentPoem');
         if (renderFunction) renderFunction();
     });
+}
+
+function renderHero() {
+    document.getElementById('hero').style.display = 'flex';
 }
 
 function renderPoems() {
@@ -85,8 +90,8 @@ function expandCard(card, index) {
     });
     card.classList.add('expanded');
     card.querySelector('p').style.display = 'block';
-    card.removeEventListener('click', () => expandCard(card, index));
-    card.addEventListener('click', () => closeCard(card));
+    card.removeEventListener('click', expandCardListener);
+    card.addEventListener('click', closeCardListener);
     localStorage.setItem('currentPoem', index);
     card.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -100,15 +105,26 @@ function closeCard(card) {
         poemCardsContainer.querySelectorAll('.poem-card').forEach(c => {
             c.classList.remove('hidden');
         });
-        card.removeEventListener('click', () => closeCard(card));
-        card.addEventListener('click', () => expandCard(card));
+        card.removeEventListener('click', closeCardListener);
+        card.addEventListener('click', expandCardListener);
         localStorage.removeItem('currentPoem'); // Clear current poem when closing
         card.scrollIntoView({ behavior: 'auto', block: 'center' });
     }, { once: true });
 }
 
+function expandCardListener(event) {
+    const card = event.currentTarget;
+    const index = Array.from(card.parentNode.children).indexOf(card);
+    expandCard(card, index);
+}
+
+function closeCardListener(event) {
+    const card = event.currentTarget;
+    closeCard(card);
+}
+
 // Set up navigation event listeners
-handleNavClick('nav-home', 'hero');
+handleNavClick('nav-home', 'hero', renderHero);
 handleNavClick('nav-book', 'book', renderPoems);
 handleNavClick('nav-author', 'author', renderAuthor);
 handleNavClick('nav-about', 'about', renderAbout);
@@ -116,10 +132,11 @@ handleNavClick('nav-about', 'about', renderAbout);
 // Initialize the page
 function initializePage() {
     showSection(currentPage);
-    setActiveNav(`nav-${currentPage}`);
+    if (currentPage === 'hero') renderHero();
     if (currentPage === 'book') renderPoems();
     if (currentPage === 'author') renderAuthor();
     if (currentPage === 'about') renderAbout();
+    setActiveNav(`nav-${currentPage}`); // Ensure this is called with the correct ID
     setInterval(updateHeroText, 3000);
     updateHeroText();
 }
