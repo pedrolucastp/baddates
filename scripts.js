@@ -20,29 +20,42 @@ function setActiveNav(navId) {
 
 document.getElementById('nav-home').addEventListener('click', () => {
     document.getElementById('hero').style.display = 'flex';
-    document.getElementById('livro').style.display = 'none';
-    document.getElementById('autora').style.display = 'none';
+    document.getElementById('book').style.display = 'none';
+    document.getElementById('author').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
     setActiveNav('nav-home');
     localStorage.setItem('currentPage', 'home');
     localStorage.removeItem('currentPoem'); // Clear current poem when navigating to home
 });
 
-document.getElementById('nav-livro').addEventListener('click', () => {
+document.getElementById('nav-book').addEventListener('click', () => {
     document.getElementById('hero').style.display = 'none';
-    document.getElementById('livro').style.display = 'flex';
-    document.getElementById('autora').style.display = 'none';
+    document.getElementById('book').style.display = 'flex';
+    document.getElementById('author').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
     renderPoems();
-    setActiveNav('nav-livro');
-    localStorage.setItem('currentPage', 'livro');
+    setActiveNav('nav-book');
+    localStorage.setItem('currentPage', 'book');
 });
 
-document.getElementById('nav-autora').addEventListener('click', () => {
+document.getElementById('nav-author').addEventListener('click', () => {
     document.getElementById('hero').style.display = 'none';
-    document.getElementById('livro').style.display = 'none';
-    document.getElementById('autora').style.display = 'flex';
-    renderAutora();
-    setActiveNav('nav-autora');
-    localStorage.setItem('currentPage', 'autora');
+    document.getElementById('book').style.display = 'none';
+    document.getElementById('author').style.display = 'flex';
+    document.getElementById('about').style.display = 'none';
+    renderAuthor();
+    setActiveNav('nav-author');
+    localStorage.setItem('currentPage', 'author');
+});
+
+document.getElementById('nav-about').addEventListener('click', () => {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('book').style.display = 'none';
+    document.getElementById('author').style.display = 'none';
+    document.getElementById('about').style.display = 'flex';
+    renderAbout();
+    setActiveNav('nav-about');
+    localStorage.setItem('currentPage', 'about');
 });
 
 function renderPoems() {
@@ -66,10 +79,21 @@ function renderPoems() {
     }
 }
 
-function renderAutora() {
-    document.getElementById('autora-image').src = content.autora.image;
-    document.getElementById('autora-title').innerText = content.autora.title;
-    document.getElementById('autora-description').innerText = content.autora.description;
+function renderAuthor() {
+    document.getElementById('author-image').src = content.author.image;
+    document.getElementById('author-name').innerText = content.author.name;
+    document.getElementById('author-bio').innerText = content.author.bio;
+}
+
+function renderAbout() {
+    const about = document.getElementById('about');
+    about.innerHTML = `
+        <h2>${content.about.intro}</h2>
+        <p>${content.about.description}</p>
+        <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
+        <p>${content.about.thanks}</p>
+        <p>${content.about.contact}</p>
+    `;
 }
 
 function expandCard(card, index) {
@@ -101,17 +125,27 @@ function closeCard(card) {
 }
 
 // Set the initial active navigation item based on localStorage
-if (currentPage === 'livro') {
+if (currentPage === 'book') {
     document.getElementById('hero').style.display = 'none';
-    document.getElementById('livro').style.display = 'flex';
+    document.getElementById('book').style.display = 'flex';
+    document.getElementById('author').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
     renderPoems();
-    setActiveNav('nav-livro');
-} else if (currentPage === 'autora') {
+    setActiveNav('nav-book');
+} else if (currentPage === 'author') {
     document.getElementById('hero').style.display = 'none';
-    document.getElementById('livro').style.display = 'none';
-    document.getElementById('autora').style.display = 'flex';
-    renderAutora();
-    setActiveNav('nav-autora');
+    document.getElementById('book').style.display = 'none';
+    document.getElementById('author').style.display = 'flex';
+    document.getElementById('about').style.display = 'none';
+    renderAuthor();
+    setActiveNav('nav-author');
+} else if (currentPage === 'about') {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('book').style.display = 'none';
+    document.getElementById('author').style.display = 'none';
+    document.getElementById('about').style.display = 'flex';
+    renderAbout();
+    setActiveNav('nav-about');
 } else {
     setActiveNav('nav-home');
 }

@@ -1,6 +1,18 @@
 const content = {
     "title": "Bad Dates",
-    "description": "Um amontoado de palavras sobre encontros meus, teus, nossos. Acontecidos, não acontecidos, inventados, reais e fictícios, mentidos ou prometidos (ou não).",
+    "author": {
+        "name": "Estela Rocha",
+        "image": "https://miro.medium.com/v2/resize:fit:2400/1*rczXfG2L_-Gua7kEjodWig.jpeg",
+        "bio": "Um amontoado de palavras sobre encontros meus, teus, nossos. Acontecidos, não acontecidos, inventados, reais e fictícios, mentidos ou prometidos (ou não).",
+    },
+    "about": {
+        "intro": "Sobre o Livro",
+        "description": "O livro 'Bad Dates' é uma coletânea de reflexões e relatos sobre encontros e desencontros, reais e imaginários, vividos e inventados. Estela Rocha traz uma perspectiva única e envolvente, convidando o leitor a explorar os recantos das emoções humanas. Adquira sua cópia e mergulhe nestas histórias.",
+        "buttonText": "Compre na Amazon",
+        "buttonLink": "https://www.amazon.com.br",
+        "thanks": "Agradecemos pelo seu interesse e apoio!",
+        "contact": "Para mais informações, entre em contato pelo email: estelatdrocha@gmail.com"
+    },
     "poems": [
         {
             "title": "Te vendo a 5 reais",
@@ -62,7 +74,8 @@ const content = {
             "text": "Não sei terminar brigas sem desaparecer. Não vou perguntar teu signo tão explicitamente, mas vou fazer cálculo da tua lua e do teu ascendente. Vou lembrar de ti quando tocar a música. E em silêncio imaginar o que tu me diria se eu tropeçasse na tua frente. Vou caminhar pelas ruas achando que posso te ver. Eu só fico sem fome quando estou nervosa.. (e ainda me pergunto o porquê? Estou sem você, oras) Vou lembrar da tua risada e achar graça sozinha abrindo e fechando a tua janela. E vou passar por uma loja e tirar uma foto. Dizer que sinto saudade assim, só pelo reflexo do vidro. Ou da tela.",
             "short_sentence": "Vou lembrar de ti quando tocar a música"
         },
-        {    "title": "Perdoa, vai.",
+        {
+            "title": "Perdoa, vai.",
             "text": "Perdoa meus excessos. É essa minha vênus em escorpião.",
             "short_sentence": "É essa minha vênus em escorpião"
         },
