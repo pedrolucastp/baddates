@@ -62,11 +62,6 @@ const content = {
             "text": "Não sei terminar brigas sem desaparecer. Não vou perguntar teu signo tão explicitamente, mas vou fazer cálculo da tua lua e do teu ascendente. Vou lembrar de ti quando tocar a música. E em silêncio imaginar o que tu me diria se eu tropeçasse na tua frente. Vou caminhar pelas ruas achando que posso te ver. Eu só fico sem fome quando estou nervosa.. (e ainda me pergunto o porquê? Estou sem você, oras) Vou lembrar da tua risada e achar graça sozinha abrindo e fechando a tua janela. E vou passar por uma loja e tirar uma foto. Dizer que sinto saudade assim, só pelo reflexo do vidro. Ou da tela.",
             "short_sentence": "Vou lembrar de ti quando tocar a música"
         },
-        {
-            "title": "Perdoa, vai.",
-            "text": "Perdoa meus excessos. É essa minha vênus em escorpião.",
-            "short_sentence": "Perdoa meus excessos"
-        },
         {    "title": "Perdoa, vai.",
             "text": "Perdoa meus excessos. É essa minha vênus em escorpião.",
             "short_sentence": "É essa minha vênus em escorpião"
@@ -135,16 +130,6 @@ const content = {
             "title": "Anunciação",
             "text": "Venho por meio deste, profanamente, anunciar Aos poucos Palavra por palavra Enrolando até cansar Que tento ponderar todas essas bandeiras, brancas e vermelhas, mas, porém, entretanto, te amar já resulta inevitável.",
             "short_sentence": "Te amar já resulta inevitável"
-        },
-        {
-            "title": "Ruídos de uma luta livre",
-            "text": "Em caso de braços abertos avance ronronando",
-            "short_sentence": "Avance ronronando"
-        }, 
-        {
-            "title": "Ruídos de uma luta livre",
-            "text": "Em caso de braços abertos avance ronronando",
-            "short_sentence": "Avance ronronando"
         },
         {
             "title": "Ruídos de uma luta livre",

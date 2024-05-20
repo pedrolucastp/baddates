@@ -1,4 +1,6 @@
 let currentIndex = 0;
+const currentPage = localStorage.getItem('currentPage') || 'home';
+const currentPoem = localStorage.getItem('currentPoem');
 
 function updateHeroText() {
     const heroTextElement = document.getElementById('carousel-text');
@@ -19,14 +21,28 @@ function setActiveNav(navId) {
 document.getElementById('nav-home').addEventListener('click', () => {
     document.getElementById('hero').style.display = 'flex';
     document.getElementById('livro').style.display = 'none';
+    document.getElementById('autora').style.display = 'none';
     setActiveNav('nav-home');
+    localStorage.setItem('currentPage', 'home');
+    localStorage.removeItem('currentPoem'); // Clear current poem when navigating to home
 });
 
 document.getElementById('nav-livro').addEventListener('click', () => {
     document.getElementById('hero').style.display = 'none';
     document.getElementById('livro').style.display = 'flex';
+    document.getElementById('autora').style.display = 'none';
     renderPoems();
     setActiveNav('nav-livro');
+    localStorage.setItem('currentPage', 'livro');
+});
+
+document.getElementById('nav-autora').addEventListener('click', () => {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('livro').style.display = 'none';
+    document.getElementById('autora').style.display = 'flex';
+    renderAutora();
+    setActiveNav('nav-autora');
+    localStorage.setItem('currentPage', 'autora');
 });
 
 function renderPoems() {
@@ -37,13 +53,26 @@ function renderPoems() {
         card.className = 'poem-card';
         card.innerHTML = `<h3>${poem.title}</h3><p>${poem.text}</p>`;
         card.addEventListener('click', () => {
-            expandCard(card);
+            expandCard(card, index);
         });
         poemCardsContainer.appendChild(card);
     });
+
+    // Scroll to the previously viewed poem card
+    if (currentPoem !== null) {
+        const card = poemCardsContainer.children[currentPoem];
+        expandCard(card, currentPoem);
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
 }
 
-function expandCard(card) {
+function renderAutora() {
+    document.getElementById('autora-image').src = content.autora.image;
+    document.getElementById('autora-title').innerText = content.autora.title;
+    document.getElementById('autora-description').innerText = content.autora.description;
+}
+
+function expandCard(card, index) {
     const poemCardsContainer = document.getElementById('poem-cards');
     poemCardsContainer.querySelectorAll('.poem-card').forEach(c => {
         if (c !== card) {
@@ -52,10 +81,10 @@ function expandCard(card) {
     });
     card.classList.add('expanded');
     card.querySelector('p').style.display = 'block';
-    card.removeEventListener('click', expandCard);
-    card.addEventListener('click', () => {
-        closeCard(card);
-    });
+    card.removeEventListener('click', () => expandCard(card, index));
+    card.addEventListener('click', () => closeCard(card));
+    localStorage.setItem('currentPoem', index);
+    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function closeCard(card) {
@@ -65,11 +94,24 @@ function closeCard(card) {
     });
     card.classList.remove('expanded');
     card.querySelector('p').style.display = 'none';
-    card.removeEventListener('click', closeCard);
-    card.addEventListener('click', () => {
-        expandCard(card);
-    });
+    card.removeEventListener('click', () => closeCard(card));
+    card.addEventListener('click', () => expandCard(card));
+    localStorage.removeItem('currentPoem'); // Clear current poem when closing
+    card.scrollIntoView({ behavior: 'auto', block: 'center' });
 }
 
-// Set the initial active navigation item
-setActiveNav('nav-home');
+// Set the initial active navigation item based on localStorage
+if (currentPage === 'livro') {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('livro').style.display = 'flex';
+    renderPoems();
+    setActiveNav('nav-livro');
+} else if (currentPage === 'autora') {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('livro').style.display = 'none';
+    document.getElementById('autora').style.display = 'flex';
+    renderAutora();
+    setActiveNav('nav-autora');
+} else {
+    setActiveNav('nav-home');
+}
