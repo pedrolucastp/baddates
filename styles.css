@@ -1,3 +1,4 @@
+/* General styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -117,7 +118,7 @@ main {
 .poem-card {
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     color: black;
@@ -130,6 +131,10 @@ main {
     align-items: center;
     margin: 5px;
     width: calc(100% / 4 - 14px);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 .expanded {
@@ -142,6 +147,11 @@ main {
     justify-content: flex-start;
     margin: 5px;
     width: 100%;
+    animation: expandCard 0.3s ease-in-out forwards;
+}
+
+.expanded.hiding {
+    animation: collapseCard 0.3s ease-in-out forwards;
 }
 
 .expanded h3 {
@@ -154,6 +164,28 @@ main {
     font-size: 30px;
     margin-top: 20px;
     overflow: auto;
+}
+
+@keyframes expandCard {
+    0% {
+        transform: scale(0.95);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes collapseCard {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.95);
+        opacity: 0.5;
+    }
 }
 
 .poem-card h3 {
@@ -174,19 +206,23 @@ main {
 
 .author {
     display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
     width: 100%;
-    padding: 20px;
+    padding: 150px 200px 0;
+    gap: 20px;
 }
 
 .author img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 .author h2 {
@@ -201,17 +237,19 @@ main {
 
 .about {
     display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
     width: 100%;
-    padding: 20px;
+    padding: 150px 200px 0;
+    gap: 20px;
 }
 
 .about h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    min-width: 40%;
 }
 
 .about p {
@@ -224,12 +262,17 @@ main {
     display: inline-block;
     background-color: #a70808;
     color: white;
-    padding: 10px 20px;
+    padding: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration: none;
     margin-bottom: 20px;
+    width: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 .about .buy-button:hover {
@@ -239,7 +282,6 @@ main {
 .hidden {
     display: none;
 }
-
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
@@ -257,7 +299,7 @@ main {
     }
 
     .poem-card {
-        width: 100%
+        width: 100%;
     }
 
     .expanded h3 {
@@ -266,5 +308,24 @@ main {
 
     .expanded p {
         font-size: 18px;
+    }
+
+    .author {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .author img {
+        max-width: 100%;
+    }
+
+    .about {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .about h2 {
+        min-width: 100%;
+        margin-bottom: 0;
     }
 }

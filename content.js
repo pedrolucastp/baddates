@@ -1,12 +1,12 @@
 const content = {
     "title": "Bad Dates",
     "author": {
-        "name": "Estela Rocha",
+        "name": "ESTELA ROCHA",
         "image": "https://miro.medium.com/v2/resize:fit:2400/1*rczXfG2L_-Gua7kEjodWig.jpeg",
         "bio": "Um amontoado de palavras sobre encontros meus, teus, nossos. Acontecidos, não acontecidos, inventados, reais e fictícios, mentidos ou prometidos (ou não).",
     },
     "about": {
-        "intro": "Sobre o Livro",
+        "intro": "BAD DATES",
         "description": "O livro 'Bad Dates' é uma coletânea de reflexões e relatos sobre encontros e desencontros, reais e imaginários, vividos e inventados. Estela Rocha traz uma perspectiva única e envolvente, convidando o leitor a explorar os recantos das emoções humanas. Adquira sua cópia e mergulhe nestas histórias.",
         "buttonText": "Compre na Amazon",
         "buttonLink": "https://www.amazon.com.br",

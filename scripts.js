@@ -2,81 +2,55 @@ let currentIndex = 0;
 const currentPage = localStorage.getItem('currentPage') || 'home';
 const currentPoem = localStorage.getItem('currentPoem');
 
+// Helper functions
 function updateHeroText() {
     const heroTextElement = document.getElementById('carousel-text');
     heroTextElement.innerHTML = content.poems[currentIndex].short_sentence;
     currentIndex = (currentIndex + 1) % content.poems.length;
 }
 
-setInterval(updateHeroText, 3000); // Change text every 3 seconds
-updateHeroText(); // Initial call to set the first text
-
 function setActiveNav(navId) {
     document.querySelectorAll('header nav span').forEach(span => {
-        span.classList.remove('active');
+        span.classList.toggle('active', span.id === navId);
     });
-    document.getElementById(navId).classList.add('active');
 }
 
-document.getElementById('nav-home').addEventListener('click', () => {
-    document.getElementById('hero').style.display = 'flex';
-    document.getElementById('book').style.display = 'none';
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('about').style.display = 'none';
-    setActiveNav('nav-home');
-    localStorage.setItem('currentPage', 'home');
-    localStorage.removeItem('currentPoem'); // Clear current poem when navigating to home
-});
+function showSection(sectionId) {
+    document.querySelectorAll('main > div').forEach(section => {
+        section.style.display = section.id === sectionId ? 'flex' : 'none';
+    });
+}
 
-document.getElementById('nav-book').addEventListener('click', () => {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'flex';
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('about').style.display = 'none';
-    renderPoems();
-    setActiveNav('nav-book');
-    localStorage.setItem('currentPage', 'book');
-});
-
-document.getElementById('nav-author').addEventListener('click', () => {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'none';
-    document.getElementById('author').style.display = 'flex';
-    document.getElementById('about').style.display = 'none';
-    renderAuthor();
-    setActiveNav('nav-author');
-    localStorage.setItem('currentPage', 'author');
-});
-
-document.getElementById('nav-about').addEventListener('click', () => {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'none';
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('about').style.display = 'flex';
-    renderAbout();
-    setActiveNav('nav-about');
-    localStorage.setItem('currentPage', 'about');
-});
+function handleNavClick(navId, sectionId, renderFunction) {
+    document.getElementById(navId).addEventListener('click', () => {
+        showSection(sectionId);
+        setActiveNav(navId);
+        localStorage.setItem('currentPage', sectionId);
+        localStorage.removeItem('currentPoem');
+        if (renderFunction) renderFunction();
+    });
+}
 
 function renderPoems() {
     const poemCardsContainer = document.getElementById('poem-cards');
     poemCardsContainer.innerHTML = '';
     content.poems.forEach((poem, index) => {
-        const card = document.createElement('div');
-        card.className = 'poem-card';
-        card.innerHTML = `<h3>${poem.title}</h3><p>${poem.text}</p>`;
-        card.addEventListener('click', () => {
-            expandCard(card, index);
-        });
+        const card = createPoemCard(poem, index);
         poemCardsContainer.appendChild(card);
     });
-
-    // Scroll to the previously viewed poem card
     if (currentPoem !== null) {
         const card = poemCardsContainer.children[currentPoem];
         expandCard(card, currentPoem);
         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
+}
+
+function createPoemCard(poem, index) {
+    const card = document.createElement('div');
+    card.className = 'poem-card';
+    card.innerHTML = `<h3>${poem.title}</h3><p>${poem.text}</p>`;
+    card.addEventListener('click', () => expandCard(card, index));
+    return card;
 }
 
 function renderAuthor() {
@@ -86,13 +60,14 @@ function renderAuthor() {
 }
 
 function renderAbout() {
-    const about = document.getElementById('about');
-    about.innerHTML = `
+    document.getElementById('about').innerHTML = `
         <h2>${content.about.intro}</h2>
-        <p>${content.about.description}</p>
-        <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
-        <p>${content.about.thanks}</p>
-        <p>${content.about.contact}</p>
+        <div>
+            <p>${content.about.description}</p>
+            <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
+            <p>${content.about.thanks}</p>
+            <p>${content.about.contact}</p>
+        </div>
     `;
 }
 
@@ -113,39 +88,35 @@ function expandCard(card, index) {
 
 function closeCard(card) {
     const poemCardsContainer = document.getElementById('poem-cards');
-    poemCardsContainer.querySelectorAll('.poem-card').forEach(c => {
-        c.classList.remove('hidden');
-    });
-    card.classList.remove('expanded');
-    card.querySelector('p').style.display = 'none';
-    card.removeEventListener('click', () => closeCard(card));
-    card.addEventListener('click', () => expandCard(card));
-    localStorage.removeItem('currentPoem'); // Clear current poem when closing
-    card.scrollIntoView({ behavior: 'auto', block: 'center' });
+    card.classList.add('hiding');
+    card.addEventListener('animationend', () => {
+        card.classList.remove('expanded', 'hiding');
+        card.querySelector('p').style.display = 'none';
+        poemCardsContainer.querySelectorAll('.poem-card').forEach(c => {
+            c.classList.remove('hidden');
+        });
+        card.removeEventListener('click', () => closeCard(card));
+        card.addEventListener('click', () => expandCard(card));
+        localStorage.removeItem('currentPoem'); // Clear current poem when closing
+        card.scrollIntoView({ behavior: 'auto', block: 'center' });
+    }, { once: true });
 }
 
-// Set the initial active navigation item based on localStorage
-if (currentPage === 'book') {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'flex';
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('about').style.display = 'none';
-    renderPoems();
-    setActiveNav('nav-book');
-} else if (currentPage === 'author') {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'none';
-    document.getElementById('author').style.display = 'flex';
-    document.getElementById('about').style.display = 'none';
-    renderAuthor();
-    setActiveNav('nav-author');
-} else if (currentPage === 'about') {
-    document.getElementById('hero').style.display = 'none';
-    document.getElementById('book').style.display = 'none';
-    document.getElementById('author').style.display = 'none';
-    document.getElementById('about').style.display = 'flex';
-    renderAbout();
-    setActiveNav('nav-about');
-} else {
-    setActiveNav('nav-home');
+// Set up navigation event listeners
+handleNavClick('nav-home', 'hero');
+handleNavClick('nav-book', 'book', renderPoems);
+handleNavClick('nav-author', 'author', renderAuthor);
+handleNavClick('nav-about', 'about', renderAbout);
+
+// Initialize the page
+function initializePage() {
+    showSection(currentPage);
+    setActiveNav(`nav-${currentPage}`);
+    if (currentPage === 'book') renderPoems();
+    if (currentPage === 'author') renderAuthor();
+    if (currentPage === 'about') renderAbout();
+    setInterval(updateHeroText, 3000);
+    updateHeroText();
 }
+
+initializePage();
