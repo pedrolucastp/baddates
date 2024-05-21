@@ -202,7 +202,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     width: 100%;
-   
+    transition: all 0.3s ease-in-out;
 }
 
 .poem-card:not(.expanded):hover{
