@@ -20,8 +20,8 @@ const content = {
             "short_sentence": "te vender a 5 reais numa feira de artesanato"
         },
         {
-            "title": "Clichê brega para te ver chegar",
-            "text": "Quero te esperar como alguém que espera o relógio pontual marcar a hora exata entre um minuto e uma decisão importantíssima e improrrogável para salvar o planeta ou desligar o fogão quando a chaleira assoviar, o leite subir e não derramar, a cafeteira avisar que o café tá pronto e quente. E te abraçar forte como em um encontro clássico de cinema. Vir correndo na tua direção, ainda que desengonçada, no aeroporto de Roma (aquele que dormi no dia do meu aniversário em 2017 quando perdi um vôo para Paris), jogar as malas no chão e abrir um sorriso com os olhos marejados de paixão ao ver que o teu cabelo cresceu e tu não te importou. Quero tomar um vinho contigo, acompanhado de água com gás, deitada no sofá, clichezona, eu sei, por que eu pensei mil vezes no que estaria vestindo ao te ver chegar, mas nada parecia tão perfeito quanto a tua camiseta velha e surrada que virou minha companheira. E, fitando teu nariz pontudinho e cheio de manchinhas, te contar das coisas mais bobas possíveis que fiz enquanto estávamos longe um do outro. Como quantos roxos eu adquiri ao andar por 9h de bicicleta, quantas vezes minhas unhas quebraram durante estes dias, que tive que tomar muito dramin para navegar em mar aberto ou que toda vez que lia um rótulo de produto no supermercado e fingia que compreendia aquelas palavras em outros símbolos, a tua voz vinha na minha cabeça me chamando de engraçada por que eu criava uma nova língua que só nós dois entendíamos. Sempre gostei de te fazer rir sem controle. Acho linda a tua cara envergonhada. Acho linda a tua risada solta. Tu viu que eu to cheia de sardinhas por causa do sol? Tá tocando uma música que poderia muito ser nossa trilha sonora. Eu não prometo que não vou fazer uma playlist no spotify para te ver chegar. E quando te encontrar eu quero te dizer que passei na loja de souvenir do mercadinho de Natal e comprei um chaveiro de urso com a primeira letra do teu nome, bem brega eu sei. Queria te dar de presente para não esquecer de mim quando nos despedirmos novamente. E também vou saber que tu nunca vai usar ele como chaveiro, e talvez tu até perca ele em algum lugar por distração, e isso vai me magoar, mas eu sei, no fundo que o teu apego é com coisas mais vivas do que ursos de pelúcia e passados distantes. E eu gosto do teu apego quando ele é meu. Eu nunca pude ter ursos de pelúcia mesmo. Mas eu gosto de saber que por instantes eu posso te ter no presente. Quero te esperar como alguém que espera o trem na plataforma gelada do inverno de graus abaixo de zero e árvores de natal decoradas com estrelas feitas de cristais que brilham e cantam, só pra te dizer que tudo bem, eu posso dormir esta noite do lado esquerdo da cama. Mesmo sabendo que eu sempre escolheria o direito. Porque brigaríamos eternamente por ele só por birra ou implicância. E terminaríamos os dois desafiando a lei da física deitados empilhados como duas caixas de sapato no armário ou dois corpos que, inexplicavelmente, se atraem para se fundir em um só, mesmo quando nós mesmos fugimos desses contos cafonas de amor. A verdade toda é que eu invento mil formas para te esperar, por que já espero sem desculpa nenhuma tu bater na minha porta, de mala e cuia e de peito aberto. E eu de pijama e chá quente na mão, como no fim de um filme romântico, bem brega e clichê, me surpreenda que abaixo de chuva torrencial e ao som de um pop chiclete, abra a porta, os braços e te veja, enfim, chegar para ficar.",
+            "title": "Clichê cafona para te ver chegar",
+            "text": "Quero te esperar como alguém que espera o relógio pontual marcar a hora exata entre um minuto e uma decisão importantíssima e improrrogável para salvar o planeta ou desligar o fogão quando a chaleira assoviar, o leite subir e não derramar, a cafeteira avisar que o café tá pronto e quente. E te abraçar forte como em um encontro clássico de cinema. Vir correndo na tua direção, ainda que desengonçada, no aeroporto de Roma (aquele que dormi no dia do meu aniversário em 2017 quando perdi um vôo para Paris), jogar as malas no chão e abrir um sorriso com os olhos marejados de paixão ao ver que o teu cabelo cresceu e tu não te importou. Quero tomar um vinho contigo, acompanhado de água com gás, deitada no sofá, clichezona, eu sei, por que eu pensei mil vezes no que estaria vestindo ao te ver chegar, mas nada parecia tão perfeito quanto a tua camiseta velha e surrada que virou minha companheira. E, fitando teu nariz pontudinho e cheio de manchinhas, te contar das coisas mais bobas possíveis que fiz enquanto estávamos longe um do outro. Como quantos roxos eu adquiri ao andar por 9h de bicicleta, quantas vezes minhas unhas quebraram durante estes dias, que tive que tomar muito dramin para navegar em mar aberto ou que toda vez que lia um rótulo de produto no supermercado e fingia que compreendia aquelas palavras em outros símbolos, a tua voz vinha na minha cabeça me chamando de engraçada por que eu criava uma nova língua que só nós dois entendíamos. Sempre gostei de te fazer rir sem controle. Acho linda a tua cara envergonhada. Acho linda a tua risada solta. Tu viu que eu to cheia de sardinhas por causa do sol? Tá tocando uma música que poderia muito ser nossa trilha sonora. Eu não prometo que não vou fazer uma playlist no spotify para te ver chegar. E quando te encontrar eu quero te dizer que passei na loja de souvenir do mercadinho de Natal e comprei um chaveiro de urso com a primeira letra do teu nome, bem brega eu sei. Queria te dar de presente para não esquecer de mim quando nos despedirmos novamente. E também vou saber que tu nunca vai usar ele como chaveiro, e talvez tu até perca ele em algum lugar por distração, e isso vai me magoar, mas eu sei, no fundo que o teu apego é com coisas mais vivas do que ursos de pelúcia e passados distantes. E eu gosto do teu apego quando ele é meu. Eu nunca pude ter ursos de pelúcia mesmo. Mas eu gosto de saber que por instantes eu posso te ter no presente. Quero te esperar como alguém que espera o trem na plataforma gelada do inverno de graus abaixo de zero e árvores de natal decoradas com estrelas feitas de cristais que brilham e cantam, só pra te dizer que tudo bem, eu posso dormir esta noite do lado esquerdo da cama. Mesmo sabendo que eu sempre escolheria o direito. Porque brigaríamos eternamente por ele só por birra ou implicância. E terminaríamos os dois desafiando a lei da física deitados empilhados como duas caixas de sapato no armário ou dois corpos que, inexplicavelmente, se atraem para se fundir em um só, mesmo quando nós mesmos fugimos desses contos cafonas de amor. A verdade toda é que eu invento mil formas para te esperar, por que já espero sem desculpa nenhuma tu bater na minha porta, de mala e cuia e de peito aberto. E eu de pijama e chá quente na mão, como no fim de um filme romântico, bem cafona e bem clichê, me surpreenda que abaixo de chuva torrencial e ao som de um pop chiclete, abra a porta, os braços e te veja, enfim, chegar para ficar.",
             "short_sentence": "Quero te esperar como alguém que espera o trem na plataforma"
         },
         {
@@ -31,7 +31,7 @@ const content = {
         },
         {
             "title": "Suícidio-assassinato",
-            "text": "Hoje eu te matei dentro de mim. Por isso sangrou. Por que, na verdade, quem morreu para mim Foi o café da manhã diariamente onde trocávamos de lugar para ver pelos olhos do outro, os pés entrelaçando poeira, areia, pelos de gatos e suor embaixo da mesa, a espinha arrepiando, da boca tocando fio a fio das minhas costas tortas na cama. A louça por lavar que não importava, até o carnaval morreu. Foi um mundo, foram dois. Foi o acidente mais premeditado da minha vida. E você foi o menos. Foi um suícidio-assassinato do que você deixou de lado. Portanto, meu caro, lamento dizer. Quem morreu, meu amor, Foi você.",
+            "text": "Hoje eu te matei dentro de mim. Por isso sangrou. Por que, na verdade, quem morreu para mim Foi o café da manhã onde trocávamos de lugar para ver pelos olhos do outro. Os pés entrelaçando poeira, areia, pelos de gatos e suor embaixo da mesa. A espinha arrepiando, da boca tocando fio a fio das minhas costas tortas na cama. A louça por lavar que não importava. Até o carnaval morreu. Foi um mundo, foram dois. Foi o acidente mais premeditado da minha vida. E você foi o menos. Foi um suícidio-assassinato do que você deixou de lado. Portanto, meu caro, lamento dizer. Quem morreu, meu amor, Foi você.",
             "short_sentence": "Hoje eu te matei dentro de mim"
         },
         {
@@ -52,7 +52,7 @@ const content = {
         {
             "title": "Incêndio",
             "text": "Ao ir embora esteja ciente do incêndio que você me causou.",
-            "short_sentence": "Ao ir embora esteja ciente do incêndio que você me causou"
+            "short_sentence": "Ao ir embora esteja ciente"
         },
         {
             "title": "Convocação",
@@ -91,7 +91,7 @@ const content = {
         },
         {
             "title": "3",
-            "text": "Escrevo do dia 3. O meu número de personalidade na numerologia. Chamam de “número da borboleta”. Meu quarto? 303. Estou em Chiang Mai. A lua ainda tá cheia? Não tenho certeza, mas eu li em algum dos perfis de astrologia que eu sigo que é um bom momento para estar perto de quem se ama. Estou. O WhatsApp funciona mal, foram mais de mil imagens, não sei quantos km rodados, poucos ainda. Quantas pessoas já nos passamos por? Gosto de ser mil vezes eu, todas as eus possíveis. E eu posso. Quantas passaram por mim até aqui? Foram 18 anos olhando para o outro lado do mapa e imaginando como seria estar onde estou hoje. Virei de ponta cabeça. E hoje já é sexta-feira. Sinto insônia, mas meu peito tá cheio. Cheio que parece que vai explodir como uma bomba de purpurina no carnaval. Imagina uma bomba de purpurina explodindo na São João? Tem pra todo o mundo. Bebo uma bebida doce e ácida, um orgasmo de sabores invade meu paladar. Minha pupila se expande, meus pés já tem dores que me fazem rir. Minhas coxas já tem roxos. Minha boca tem sorrisos intermináveis. Intensidade... ela é permitida por aqui. Luzes neon me dizem que já passa das 2. Me vejo toda azul. Solto meu cabelo, deito essa cabeça que fervilha e brilha o teto sem parar. Aprendi a falar olá e obrigada em tailandês e gostei de não entender direito as coisas daqui. Descobrir tem dessas maluquices deliciosas que não sei bem explicar. It’s a big world after all. And if you can see me, how about we meet halfway?",
+            "text": "Escrevo do dia 3. O meu número de personalidade na numerologia. Chamam de 'número da borboleta'. Meu quarto? 303. Estou em Chiang Mai. A lua ainda tá cheia? Não tenho certeza, mas eu li em algum dos perfis de astrologia que eu sigo que é um bom momento para estar perto de quem se ama. Estou. O WhatsApp funciona mal, foram mais de mil imagens, não sei quantos km rodados, poucos ainda. Quantas pessoas já nos passamos por? Gosto de ser mil vezes eu, todas as eus possíveis. E eu posso. Quantas passaram por mim até aqui? Foram 18 anos olhando para o outro lado do mapa e imaginando como seria estar onde estou hoje. Virei de ponta cabeça. E hoje já é sexta-feira. Sinto insônia, mas meu peito tá cheio. Cheio que parece que vai explodir como uma bomba de purpurina no carnaval. Imagina uma bomba de purpurina explodindo na São João? Tem pra todo o mundo. Bebo uma bebida doce e ácida, um orgasmo de sabores invade meu paladar. Minha pupila se expande, meus pés já tem dores que me fazem rir. Minhas coxas já tem roxos. Minha boca tem sorrisos intermináveis. Intensidade... ela é permitida por aqui. Luzes neon me dizem que já passa das 2. Me vejo toda azul. Solto meu cabelo, deito essa cabeça que fervilha e brilha o teto sem parar. Aprendi a falar olá e obrigada em tailandês e gostei de não entender direito as coisas daqui. Descobrir tem dessas maluquices deliciosas que não sei bem explicar. It’s a big world after all. And if you can see me, how about we meet halfway?",
             "short_sentence": "A lua ainda tá cheia? Não tenho certeza"
         },
         {
@@ -115,39 +115,84 @@ const content = {
             "short_sentence": "Hate to wait"
         },
         {
-            "title": "Bueiros explodem, sabia?",
-            "text": "Falar que te amo em voz alta É como pisar em bueiros.",
-            "short_sentence": "Falar que te amo em voz alta É como pisar em bueiros"
+            "title": "Feliz Ano Novo",
+            "text": "Escrevo pra contar que neste 2019 está tudo bem. E até mesmo pareço sorrir sem perceber. Neste verão peguei sol, esqueci o protetor solar, mas não me queimei tanto. Até usei um chapéu, sabia? Bem bonito que comprei num brechó paulistano na Augusta. Amo os brechós de lá. Foi a Francine que me levou. Umas vezes pisei levinho na água gelada, aquele meu jeito de ir devagar. Outras mergulhei profundo. Boiei raso. Pulei torto. Caí. Quase caí. E cair foi bom. Um infinito verão finito. Quantas estações se passaram entre aquele nosso primeiro esbarro entre cílios até a hora do jantar? Queimei alguns papéis velhos. E alguns velhos papéis que não se encaixam mais, minha cara. O eclipse tá pedindo que a gente escreva e queime. E libere. Solte. E diga adeus com uma mão no peito e a outra entrelaçada na gente. Nas gentes. Cara, em italiano. Este é o significado. Você já fez carinho em você? É tão bom sentir a pele. Me peço em casamento quando me dou carinho. Feliz ano novo todos os dias. E feliz estar aqui. Estando, no gerúndio. Com a tua íris me lendo atentamente. Te digo olhando no olho que queria ter mil horas só pra falar contigo e contar as boas novas. E chorar os finais, mas depois gargalhar boba das piadas criadas em outras línguas E assistir aquela série que amamos naquele sofá velho e cinza e confortável com um buraco no meio. Olha só, eu quero te contar e eu não tenho mais medo. Que coragem é essa que vem do meio do peito? E te dizer que eu sinto saudade de muita gente. E eu sinto amor também. E eu to sentindo que apesar do mundo estar tão louco ainda é bom estar viva. É teu aniversário. Feliz ano novo hoje também.",
+            "short_sentence": "Feliz ano novo todos os dias"
         },
         {
-            "title": "Please, make me smile",
-            "text": "The sun (you are mine) and I'm your morning star... Laughing at us, very near, I can see myself inside your eyes. I love when you look at me and I love you more when you make me smile.",
+            "title": "Bueiros explodem",
+            "text": "Falar que te amo em voz alta É como pisar em bueiros.",
+            "short_sentence": "É como pisar em bueiros"
+        },
+        {
+            "title": "Please, faça-me rir.",
+            "text": "The sun - and he says: you are mine And I'm your morning star. Laughing at us, very near, I can see myself inside your eyes. I love when you look at me (me desvestindo con la mirada) But love you more when you make me smile. Make me smile Faça-me rir, Please (me) One more time.",
             "short_sentence": "I love when you look at me and I love you more when you make me smile"
         },
         {
             "title": "Caixa D'Água",
-            "text": "Talvez um dia você me ligue Em tempos diferentes, outra década E digamos ao mesmo tempo Que 'sentimos muito' E Mesmo que isso signifique mil coisas E Que olhar nos olhos não seja mais condicional, Eu entenda exatamente o porquê da minha caixa d`água cravada na testa ter começado a rachar.",
-            "short_sentence": "Eu entenda exatamente o porquê da minha caixa d'água cravada na testa ter começado a rachar"
+            "text": "Talvez um dia você me ligue Em tempos diferentes, outra década E digamos ao mesmo tempo Que sentimos muito E Mesmo que isso signifique mil coisas E Que olhar nos olhos não seja mais uma condição, Eu entenda exatamente o porquê da minha caixa d'água Cravada na testa ter começado a rachar.",
+            "short_sentence": "o porquê da minha caixa d'água cravada na testa ter começado a rachar"
         },
         {
             "title": "Casa Cidade",
-            "text": "Se eu fosse uma cidade Me diz Tu faria de mim a tua morada?",
-            "short_sentence": "Se eu fosse uma cidade Me diz Tu faria de mim a tua morada?"
+            "text": "Se eu fosse uma cidade Me diz Tu faria morada em mim?",
+            "short_sentence": "Se eu fosse uma cidade Me diz Tu faria morada em mim?"
         },
         {
             "title": "O Chaveiro da Lina",
-            "text": "O sol bateu 'cedo' (para um domingo, me entendam bem). Parecia tipo umas 9 da manhã. Meus olhos, ainda descolando, viraram para o lado Esquerdo. A janela tinha ficado aberta? Gosto de gin, vinho, vodka e tequila na boca. Tateei bem o travesseiro ao lado e vi, ainda que turva e confusamente, eu estava sozinha na cama. Ela parecia gigante. Meu espaço? Pequeno. Como é que eu não ouvi? Como abriu a porta? Quem não fica nem para um café? Eu teria feito um baita desjejum... O café da manhã é sempre a melhor refeição. Me levanto, saio sorrateira da minha própria cama, pé-por-pé, olhando desconfiada pela casa, como se fosse encontrar peças-chave para desvendar um crime. Por um acaso encontro meu celular com 2% de bateria, jogado no sofá, ao lado de uma camiseta surrada. Quase passa do meio dia... Mensagem? Nada. Foi embora e não deixou nem um sinal. Não vou mandar porra nenhuma. Onde já se viu? (pensei)... mas 'pensar' já é 'pensar em fazer', não é mesmo? Dois copos de água em cima da mesa. Praticamente intactos... Me lembro da noite. A gente meio bêbado, meio risonhos. Desejosamente agressivos, espantosamente gozados. Felinamente carinhosos. Pacificamente adormecidos. Dou mais três passos em direção à porta e sinto que pisei em algo que grudou. Era um post-it amarelo fluorescente que tinha caído de algum lugar... 'Peguei tua chave... com o chaveiro das cadeiras da Lina Bo Bardi. O meu preferido. Volto com pão.' É, ele também era o meu preferido.",
+            "text": "O sol bateu 'cedo' (para um domingo, me entendam bem). Parecia tipo umas 9 da manhã. Meus olhos, ainda descolando, viraram para o lado Esquerdo. A janela tinha ficado aberta? Gosto de gin, vinho, vodka e tequila na boca. Tateei bem o travesseiro ao lado e vi, ainda que turva e confusamente, eu estava sozinha na cama. Ela parecia gigante. Meu espaço? Pequeno. Como é que eu não ouvi? Como abriu a porta? Quem não fica nem para um café? Eu teria feito um baita desjejum... O café da manhã é sempre a melhor refeição. Me levanto, saio sorrateira da minha própria cama, pé-por-pé, olhando desconfiada pela casa, como se fosse encontrar peças-chave para desvendar um crime. Por um acaso encontro meu celular com 2% de bateria, jogado no sofá, ao lado de uma camiseta surrada. Quase passa do meio dia... Mensagem? Nada. Foi embora e não deixou nem um sinal. Não vou mandar porra nenhuma. Onde já se viu? (pensei)... mas 'pensar' já é 'pensar em fazer', não é mesmo? Dois copos de água em cima da mesa. Praticamente intactos... Me lembro da noite. A gente meio bêbado, meio risonhos. Desejosamente agressivos, espantosamente gozados. Felinamente carinhosos. Pacificamente adormecidos. Dou mais três passos em direção à porta e sinto que pisei em algo que grudou. Era um post-it amarelo fluorescente que tinha caído de algum lugar. O vento. 'Peguei tua chave com o chaveiro das cadeiras da Lina Bo Bardi. O meu preferido. Volto com pão.' É, ele também era o meu preferido.",
             "short_sentence": "Volto com pão"
         },
         {
             "title": "Anunciação",
-            "text": "Venho por meio deste, profanamente, anunciar Aos poucos Palavra por palavra Enrolando até cansar Que tento ponderar todas essas bandeiras, brancas e vermelhas, mas, porém, entretanto, te amar já resulta inevitável.",
+            "text": "Venho por meio deste, profanamente, anunciar Aos poucos Palavra por palavra Enrolando até cansar Que todas essas bandeiras, brancas e vermelhas, tento ponderar, mas, porém, entretanto, te amar já resulta inevitável.",
             "short_sentence": "Te amar já resulta inevitável"
         },
         {
             "title": "Ruídos de uma luta livre",
             "text": "Em caso de braços abertos avance ronronando",
             "short_sentence": "Avance ronronando"
+        },
+        {
+            "title": "Arma de guerra",
+            "text": "A lágrima também é uma arma de guerra. A cada queda, destruição.",
+            "short_sentence": "A lágrima também é uma arma de guerra"
+        },
+        {
+            "title": "Poesia a la Belle & Sebastian",
+            "text": "Colore o meu mundo com as cores do caos de uma estrela em plena combustão.",
+            "short_sentence": "Colore o meu mundo com as cores do caos"
+        },
+        {
+            "title": "Ei, mujer.",
+            "text": "Essa história não é minha É só o que eu decidi contar.",
+            "short_sentence": "Essa história não é minha"
+        },
+        {
+            "title": "Temporal",
+            "text": "Bastou um bilhete antigo para cair um temporal em mim. Não sei por que guardo esse tipo de passado no bolso esquerdo da minha jaqueta.",
+            "short_sentence": "Bastou um bilhete antigo para cair um temporal em mim"
+        },
+        {
+            "title": "Big Little Evidências",
+            "text": "Vi na borra do café que Maria Clara me serviu na quinta passada. Era você. Não me enganei não. Consultei uma taróloga que dizia que éramos almas-gêmeas. Uma? Não. Umas 10. Acreditei. Evidências, certo? E, pra falar a verdade, consultei oráculos infinitos, e muitos disseram que nós dois? Não ia rolar. Esses aí eu nunca mais voltei.",
+            "short_sentence": "Vi na borra do café"
+        },
+        {
+            "title": "CENTRO DE REABILITAÇÃO",
+            "text": "Eu não quero ser um centro de reabilitação para gente de coração partido se aventurar. Foram algumas centenas de piscadas incontroláveis para entender o que o correr do sangue nas minhas veias queria me contar. Procure outra droga mais viciante do que se apaixonar.",
+            "short_sentence": "Procure outra droga mais viciante do que se apaixonar"
+        },
+        {
+            "title": "Tantra",
+            "text": "Me olhou no olho com a pupila dilatada tentando não (se) ofuscar. Respirou profundo pelo nariz E soltou o ar quente nos meus ombros, quase encostando a boca. Arrepio. Do colo à coxa. Me faltando ar. Deslizou uma das mãos até o início do meu pescoço E abriu um sorriso sacana, posicionando a cabeça de modo peculiar. Onde começa um pescoço? Onde termina? Da ponta dos pés me desequilibrava Minha boca que salivando, chegava no quase, milimetricamente, E eu não conseguia mais me segurar. Ele, já muito centrado, irritantemente paciente Se distanciava e aproximava como um iô-iô para a cena observar. De uma crueldade abissal. E eu, presa fácil que sou mesmo, só pensava em me jogar. QUEDA LIVRE. Depois de (nem) resistir, já entregue a tudo o que me oferecia, mesmo que pouco, pouco, quase nada, por vencida já me dava. Quem perdeu aqui? Nem o tempo. Olhei para cima, ainda zonza, num zig-zag mental muito louco, onde via estrelas de cores jamais imaginadas numa janela do hemisfério norte de qualquer lugar, sentei-me à cama para tomar um ar. Pensei 'Morar eternamente naqueles segundos já me faria feliz' Quando, de repente, sinto seus dedos, sutilmente, deslizarem entre os meus cabelos, bagunçados, e percorrerem o caminho sagrado do topo da minha cabeça até a ponta do meu nariz.",
+            "short_sentence": "Se distanciava e aproximava como um iô-iô"
+        },
+        {
+            "title": "Still learning that",
+            "text": "It’s been years and countries and people. An amount of alcohol and some drugs, cigarros, sweets and coffees. Emails and pictures, and the absence of all, and dirty places just like the sacred ones. It’s been hours, and years, and it’s been hard, never easy, highs and lows, and sad truths or even bittersweet lies, til I find what matters most in life. O amor é um verbo. Love is an act.",
+            "short_sentence": "O amor é um verbo. Love is an act"
         }
     ]
 }
