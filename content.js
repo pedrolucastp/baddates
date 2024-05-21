@@ -9,7 +9,7 @@ const content = {
         "intro": "BAD DATES",
         "description": "O livro 'Bad Dates' é uma coletânea de reflexões e relatos sobre encontros e desencontros, reais e imaginários, vividos e inventados. Estela Rocha traz uma perspectiva única e envolvente, convidando o leitor a explorar os recantos das emoções humanas. Adquira sua cópia e mergulhe nestas histórias.",
         "buttonText": "Compre na Amazon",
-        "buttonLink": "https://www.amazon.com.br",
+        "buttonLink": "https://a.co/d/gntafj7",
         "thanks": "Agradecemos pelo seu interesse e apoio!",
         "contact": "Para mais informações, entre em contato pelo email: estelatdrocha@gmail.com"
     },
