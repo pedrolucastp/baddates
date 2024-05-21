@@ -36,6 +36,7 @@ header h1 {
     color: #c10016;
     margin: 0;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 header nav {

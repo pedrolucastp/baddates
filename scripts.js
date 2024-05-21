@@ -1,9 +1,10 @@
 let currentIndex = 0;
-const currentPage = /* localStorage.getItem('currentPage') || */ 'hero';
+const currentPage = localStorage.getItem('currentPage') || 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
 
 // Helper functions
 let lastIndex = -1;
+let heroTextInterval;
 
 function updateHeroText() {
     const heroTextElement = document.getElementById('carousel-text');
@@ -46,7 +47,8 @@ function renderHero(container) {
         </section>
     `;
     updateHeroText();
-    setInterval(updateHeroText, 3000);
+    if (heroTextInterval) clearInterval(heroTextInterval); // Clear previous interval if exists
+    heroTextInterval = setInterval(updateHeroText, 3000);
 }
 
 function setupInfiniteScroll() {
@@ -166,6 +168,13 @@ handleNavClick('nav-hero', 'hero', renderHero);
 handleNavClick('nav-book', 'book', renderPoems);
 handleNavClick('nav-author', 'author', renderAuthor);
 handleNavClick('nav-about', 'about', renderAbout);
+
+// Add event listener for the home link in the header
+document.getElementById('nav-logo').addEventListener('click', () => {
+    showSection('hero', renderHero);
+    localStorage.setItem('currentPage', 'hero');
+    localStorage.removeItem('currentPoem');
+});
 
 // Initialize the page
 function initializePage() {
