@@ -3,11 +3,18 @@ const currentPage = localStorage.getItem('currentPage') || 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
 
 // Helper functions
+let lastIndex = -1;
+
 function updateHeroText() {
     const heroTextElement = document.getElementById('carousel-text');
     if (heroTextElement) {
-        heroTextElement.innerHTML = content.poems[currentIndex].short_sentence;
-        currentIndex = (currentIndex + 1) % content.poems.length;
+        let randomIndex;
+        do {
+            randomIndex = Math.floor(Math.random() * content.poems.length);
+        } while (randomIndex === lastIndex);
+        
+        heroTextElement.innerHTML = content.poems[randomIndex].short_sentence;
+        lastIndex = randomIndex;
     }
 }
 
