@@ -113,12 +113,19 @@ main {
     justify-content: flex-start;
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.poem-cards::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
 }
 
 .poem-card {
     background: white;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     color: black;
@@ -130,10 +137,10 @@ main {
     align-items: center;
     margin: 5px;
     width: calc(100% / 4 - 14px);
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -289,6 +296,24 @@ main {
     background-color: #c10016;
 }
 
+.about-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    font-size: 14px;
+    color: #555;
+    position: absolute;
+    bottom: 0;
+    margin-left: -200px;
+}
+
+.about-footer p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
 .hidden {
     display: none;
 }
@@ -337,5 +362,8 @@ main {
     .about h2 {
         min-width: 100%;
         margin-bottom: 0;
+    }
+    .about-footer {
+        margin-left: -20px;
     }
 }

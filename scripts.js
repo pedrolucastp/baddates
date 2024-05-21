@@ -12,7 +12,7 @@ function updateHeroText() {
         do {
             randomIndex = Math.floor(Math.random() * content.poems.length);
         } while (randomIndex === lastIndex);
-        
+
         heroTextElement.innerHTML = content.poems[randomIndex].short_sentence;
         lastIndex = randomIndex;
     }
@@ -49,6 +49,22 @@ function renderHero(container) {
     setInterval(updateHeroText, 3000);
 }
 
+function setupInfiniteScroll() {
+    const poemCardsContainer = document.getElementById('poem-cards');
+    poemCardsContainer.addEventListener('scroll', () => {
+        if (poemCardsContainer.scrollTop + poemCardsContainer.clientHeight >= poemCardsContainer.scrollHeight - 5) {
+            appendPoemCards(poemCardsContainer);
+        }
+    });
+}
+
+function appendPoemCards(container) {
+    content.poems.forEach((poem, index) => {
+        const card = createPoemCard(poem, index);
+        container.appendChild(card);
+    });
+}
+
 function renderPoems(container) {
     container.innerHTML = `
         <section class="book" id="book">
@@ -56,15 +72,13 @@ function renderPoems(container) {
         </section>
     `;
     const poemCardsContainer = document.getElementById('poem-cards');
-    content.poems.forEach((poem, index) => {
-        const card = createPoemCard(poem, index);
-        poemCardsContainer.appendChild(card);
-    });
+    appendPoemCards(poemCardsContainer);
     if (currentPoem !== null) {
         const card = poemCardsContainer.children[currentPoem];
         expandCard(card, currentPoem);
         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
+    setupInfiniteScroll();
 }
 
 function createPoemCard(poem, index) {
@@ -97,9 +111,13 @@ function renderAbout(container) {
                 <p>${content.about.thanks}</p>
                 <p>${content.about.contact}</p>
             </div>
+            <footer class="about-footer">
+                <p>&copy; 2024 de Pedro Lucas para Estela</p>
+            </footer>
         </section>
     `;
 }
+
 
 function expandCard(card, index) {
     const poemCardsContainer = document.getElementById('poem-cards');
@@ -161,6 +179,10 @@ function initializePage() {
         showSection('about', renderAbout);
     }
     setActiveNav(`nav-${currentPage}`);
+    if (currentPage === 'hero') {
+        setInterval(updateHeroText, 3000);
+        updateHeroText();
+    }
 }
 
 initializePage();
