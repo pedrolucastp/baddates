@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const currentPage = localStorage.getItem('currentPage') || 'hero';
+const currentPage = /* localStorage.getItem('currentPage') || */ 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
 
 // Helper functions
