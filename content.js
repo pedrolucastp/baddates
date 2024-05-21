@@ -3,7 +3,7 @@ const content = {
     "author": {
         "name": "ESTELA ROCHA",
         "image": "https://miro.medium.com/v2/resize:fit:2400/1*rczXfG2L_-Gua7kEjodWig.jpeg",
-        "bio": "Um amontoado de palavras sobre encontros meus, teus, nossos. Acontecidos, não acontecidos, inventados, reais e fictícios, mentidos ou prometidos (ou não).",
+        "bio": "Estela Rocha escreve assim como quem precisa respirar. Nascida em Porto Alegre (RS) em 1986, aprendeu a amar as palavras desde cedo, pois assim entendeu a importância das formas de comunicar ao mundo o que e como sente as coisas. Aos 14 anos já escrevia contos em seu blog e, durante os anos seguintes, continuou escrevendo em cadernos, folhas soltas, em suas redes sociais, até ter um de seus textos publicados no Flipei, o Barco Pirata da FLIP de 2019. Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.",
     },
     "about": {
         "intro": "BAD DATES",
