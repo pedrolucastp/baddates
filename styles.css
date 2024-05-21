@@ -365,6 +365,7 @@ main {
         margin-bottom: 0;
     }
     .about-footer {
-        margin-left: -20px;
+        margin-left: 0px;
+        position: relative;
     }
 }
