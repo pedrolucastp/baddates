@@ -124,7 +124,6 @@ main {
     color: black;
     aspect-ratio: 1;
     align-content: space-evenly;
-    transition: all 0.5s ease-in-out;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -135,6 +134,11 @@ main {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .expanded {
@@ -198,7 +202,13 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     width: 100%;
+   
 }
+
+.poem-card:not(.expanded):hover{
+    color: #a70808;
+}
+
 
 .poem-card p {
     display: none;
