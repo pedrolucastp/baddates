@@ -112,7 +112,7 @@ function renderAbout(container) {
                 <p>${content.about.contact}</p>
             </div>
             <footer class="about-footer">
-                <p>&copy; 2024 de Pedro Lucas para Estela</p>
+                <p>&copy; 2024 para Estela de Pedro Lucas</p>
             </footer>
         </section>
     `;
