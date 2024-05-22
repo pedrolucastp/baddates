@@ -7,10 +7,10 @@ const content = {
     },
     "about": {
         "intro": "BAD DATES",
-        "description": "Após mais de 10 anos de escritas soltas sobre o amor, os desamores, o ato de flertar, se apaixonar e desapaixonar, e, claramente, perceber que se tratavam de fragmentos de textos sobre os meus relacionamentos, decidi juntar os pontos e os contos sobre alguns dos meus <i>Bad Dates</i> em um só lugar. Esses escritos foram produzidos entre os anos de 2014 e 2020 e recolhidos em totalidade em maio de 2024. A iniciativa de transformar esses textos em um livro-experiência é independente. Portanto, caso você queira colaborar com a continuidade do meu trabalho, compre o livro ou entre em contato comigo.",
-        "buttonText": "Compre o livro",
+        "description": "Após mais de 10 anos mergulhada em histórias de amor, desamores, flertes, paixões e desapaixões, decidi reunir os fragmentos e contos dos meus <i>Bad Dates</i> em um só lugar. <br/> Estas narrativas, escritas entre 2014 e 2020 e concluídas em maio de 2024, revelam as nuances dos meus relacionamentos de uma forma íntima e envolvente. Este livro é mais que uma coleção de textos; é uma jornada emocional que convida você a refletir sobre suas próprias experiências.",
+        "thanks": "Apoie esta iniciativa independente adquirindo o livro em versão digital ou impressa. Sua contribuição é essencial para que eu continue a compartilhar essas histórias.",
+        "buttonText": "Comprar o livro",
         "buttonLink": "https://a.co/d/gntafj7",
-        "thanks": "Se você leu e gostou, que acha de me oferecer um café?",
         "contact": "Para imprensa e parcerias, entre em contato pelo email: estelatdrocha@gmail.com"
     },
     "poems": [
