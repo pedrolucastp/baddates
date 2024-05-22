@@ -86,7 +86,7 @@ function renderPoems(container) {
 function createPoemCard(poem, index) {
     const card = document.createElement('div');
     card.className = 'poem-card';
-    card.innerHTML = `<h3>${poem.title}</h3><p>${poem.text}</p>`;
+    card.innerHTML = `<h3>${poem.title}</h3><p><pre>${poem.text}</pre></p>`;
     card.addEventListener('click', () => expandCard(card, index));
     return card;
 }
