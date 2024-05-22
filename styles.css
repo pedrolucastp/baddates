@@ -176,6 +176,7 @@ main {
     font-size: 30px;
     margin-top: 20px;
     overflow: auto;
+    white-space: pre-wrap;
 }
 
 @keyframes expandCard {

@@ -3,6 +3,30 @@ const currentPage = localStorage.getItem('currentPage') || 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
 
 // Helper functions
+function setActiveNav(navId) {
+    document.querySelectorAll('header nav span').forEach(span => {
+        span.classList.toggle('active', span.id === navId);
+    });
+}
+
+function showSection(sectionId, renderFunction) {
+    const mainContent = document.getElementById('main-content');
+    mainContent.innerHTML = ''; // Clear the main content
+    if (renderFunction) renderFunction(mainContent);
+    setActiveNav(`nav-${sectionId}`);
+}
+
+function handleNavClick(navId, sectionId, renderFunction, resetCurrentPoem = false) {
+    document.getElementById(navId).addEventListener('click', () => {
+        showSection(sectionId, renderFunction);
+        localStorage.setItem('currentPage', sectionId);
+        if (resetCurrentPoem) {
+            localStorage.removeItem('currentPoem');
+        }
+    });
+}
+
+// Home
 let lastIndex = -1;
 let heroTextInterval;
 
@@ -19,27 +43,6 @@ function updateHeroText() {
     }
 }
 
-function setActiveNav(navId) {
-    document.querySelectorAll('header nav span').forEach(span => {
-        span.classList.toggle('active', span.id === navId);
-    });
-}
-
-function showSection(sectionId, renderFunction) {
-    const mainContent = document.getElementById('main-content');
-    mainContent.innerHTML = ''; // Clear the main content
-    if (renderFunction) renderFunction(mainContent);
-    setActiveNav(`nav-${sectionId}`);
-}
-
-function handleNavClick(navId, sectionId, renderFunction) {
-    document.getElementById(navId).addEventListener('click', () => {
-        showSection(sectionId, renderFunction);
-        localStorage.setItem('currentPage', sectionId);
-        localStorage.removeItem('currentPoem');
-    });
-}
-
 function renderHero(container) {
     container.innerHTML = `
         <section class="hero" id="hero">
@@ -51,6 +54,7 @@ function renderHero(container) {
     heroTextInterval = setInterval(updateHeroText, 3000);
 }
 
+// Livro
 function setupInfiniteScroll() {
     const poemCardsContainer = document.getElementById('poem-cards');
     poemCardsContainer.addEventListener('scroll', () => {
@@ -86,40 +90,10 @@ function renderPoems(container) {
 function createPoemCard(poem, index) {
     const card = document.createElement('div');
     card.className = 'poem-card';
-    card.innerHTML = `<h3>${poem.title}</h3><p><pre>${poem.text}</pre></p>`;
+    card.innerHTML = `<h3>${poem.title}</h3><p>${poem.text}</p>`;
     card.addEventListener('click', () => expandCard(card, index));
     return card;
 }
-
-function renderAuthor(container) {
-    container.innerHTML = `
-        <section class="author" id="author">
-            <div>
-                <h2 id="author-name">${content.author.name}</h2>
-                <p id="author-bio">${content.author.bio}</p>
-            </div>
-            <img id="author-image" src="${content.author.image}" alt="Author Image">
-        </section>
-    `;
-}
-
-function renderAbout(container) {
-    container.innerHTML = `
-        <section class="about" id="about">
-            <h2>${content.about.intro}</h2>
-            <div>
-                <p>${content.about.description}</p>
-                <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
-                <p>${content.about.thanks}</p>
-                <p>${content.about.contact}</p>
-            </div>
-            <footer class="about-footer">
-                <p>&copy; 2024 para Estela de Pedro Lucas</p>
-            </footer>
-        </section>
-    `;
-}
-
 
 function expandCard(card, index) {
     const poemCardsContainer = document.getElementById('poem-cards');
@@ -163,9 +137,40 @@ function closeCardListener(event) {
     closeCard(card);
 }
 
+// Autora
+function renderAuthor(container) {
+    container.innerHTML = `
+        <section class="author" id="author">
+            <div>
+                <h2 id="author-name">${content.author.name}</h2>
+                <p id="author-bio">${content.author.bio}</p>
+            </div>
+            <img id="author-image" src="${content.author.image}" alt="Author Image">
+        </section>
+    `;
+}
+
+// Sobre
+function renderAbout(container) {
+    container.innerHTML = `
+        <section class="about" id="about">
+            <h2>${content.about.intro}</h2>
+            <div>
+                <p>${content.about.description}</p>
+                <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
+                <p>${content.about.thanks}</p>
+                <p>${content.about.contact}</p>
+            </div>
+            <footer class="about-footer">
+                <p>&copy; 2024 para Estela de Pedro Lucas</p>
+            </footer>
+        </section>
+    `;
+}
+
 // Set up navigation event listeners
 handleNavClick('nav-hero', 'hero', renderHero);
-handleNavClick('nav-book', 'book', renderPoems);
+handleNavClick('nav-book', 'book', renderPoems, true);  // Reset currentPoem when navigating to "Livro"
 handleNavClick('nav-author', 'author', renderAuthor);
 handleNavClick('nav-about', 'about', renderAbout);
 
