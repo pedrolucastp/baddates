@@ -66,6 +66,7 @@ e do que  matei,
 Portanto, meu caro, lamento dizer
 Quem morreu, meu amor,
 Foi você.
+
 `,
             short_sentence: `Hoje eu te matei dentro de mim`
         },
