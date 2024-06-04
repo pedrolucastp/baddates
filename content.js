@@ -38,7 +38,7 @@ Tantas vezes...
 Tantos fins,
 Tantos finais, 
 
-Tantos pontos profundos e profanos arguidos com cirúrgica precisão que atravessaram madrugadas tentando... 
+Tantos pontos profundos e profanos arguidos com cirúrgica precisão que atravessaram madrugadas tentando 
 se fazer
 
 Ter razão?!
@@ -47,7 +47,7 @@ Página virada em meio a ventania sempre volta,
 assim fantasma, 
 
 para a assombrar com frases que esquecemos de 
-ponderar... 
+ponderar 
 
 Marca texto some com o tempo.
 
@@ -61,7 +61,8 @@ Batidas.
 O relógio não funciona mais. 
 O peito, arritmia. 
 
-A tua percussão, não me daria o ritmo e o pulso de virar, rodopiando, feito bailarina de coque alto e toda de branco, para o passado latitudinal que nos fazia possíveis. 
+A tua percussão 
+não me daria o ritmo e o pulso de virar, rodopiando, feito bailarina de coque alto e toda de branco, para o passado latitudinal que nos fazia possíveis. 
 
 Palco pra que? 
 As cortinas estavam fechadas. 
