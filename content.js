@@ -37,8 +37,36 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
             short_sentence: `O teu nome não cabe numa lata de Coca-Cola`
         },
         {
-            title: `Suícidio-assassinato`,
-            text: `Hoje eu te matei dentro de mim. Por isso sangrou. Por que, na verdade, quem morreu para mim Foi o café da manhã onde trocávamos de lugar para ver pelos olhos do outro. Os pés entrelaçando poeira, areia, pelos de gatos e suor embaixo da mesa. A espinha arrepiando, da boca tocando fio a fio das minhas costas tortas na cama. A louça por lavar que não importava. Até o carnaval morreu. Foi um mundo, foram dois. Foi o acidente mais premeditado da minha vida. E você foi o menos. Foi um suícidio-assassinato do que você deixou de lado. Portanto, meu caro, lamento dizer. Quem morreu, meu amor, Foi você.`,
+            title: `Morte Lenta`,
+            text: `Hoje eu te matei dentro de mim. 
+
+Por isso sangrou. 
+
+Por que,  na verdade,
+quem morreu para mim
+ 
+ Foi o café da manhã onde trocávamos de lugar para ver pelos olhos do outro. Os pés entrelaçando poeira, areia, pelos de gatos e suor embaixo da mesa.  
+ A espinha arrepiando, da boca tocando fio a fio das minhas costas tortas na cama.  
+ A louça por lavar que não importava. 
+ Até o carnaval morreu. 
+
+Foi um mundo, 
+foram dois. 
+
+Foi o acidente mais premeditado da minha vida. 
+E você foi o menos. 
+
+Foi um assassinato do que você deixou de lado.
+
+De tudo o que se passou e você matou, 
+de tudo o que eu passei,
+Do que tive que morrer,
+e do que  matei, 
+
+Portanto, meu caro, lamento dizer
+Quem morreu, meu amor,
+Foi você.
+`,
             short_sentence: `Hoje eu te matei dentro de mim`
         },
         {
