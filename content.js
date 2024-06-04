@@ -193,7 +193,6 @@ Ainda que não saiba se gosto ou não dessa nova demarcação "territorial" que 
 
 Disse, ele, engasgado, ajeitando a voz naquele “hum hum” básico para limpar a garganta e prendendo o ar na barriga para levantar os ombros…
 
-
 Que eu penso demais.
 Que eu falo demais. 
 Que eu sinto demais.
@@ -272,44 +271,133 @@ A entrelaçar.`,
             text: `Eu te amo
 Mas eu nem sei o que fazer com isso.
 
-
 Toca um jazz que não lembro o nome no meu spotify. 
 E com essa memória falha eu até já me esqueci que não posso te pensar tanto assim.`,
             short_sentence: `Eu te amo mas eu nem sei o que fazer com isso`
         },
         {
             title: `Home`,
-            text: `Learning to call myself home. To arrive in myself. To come. To let myself go... but to know the path Even if I lose Be capable to loosen up And get in and shout out. But to always come back to me. I am home.`,
+            text: `I'm learning to call myself home.
+To arrive in myself. 
+To come. 
+To let myself go... 
+but to know the path
+
+Even if I lose (me)
+Be capable to loosen up 
+And get in (side the wounds) and shout out (to the world). 
+But to always come back
+to me.
+
+I am home.`,
             short_sentence: `I am home`
         },
         {
             title: `Saudade`,
-            text: `Não sei terminar brigas sem desaparecer. Não vou perguntar teu signo tão explicitamente, mas vou fazer cálculo da tua lua e do teu ascendente. Vou lembrar de ti quando tocar a música. E em silêncio imaginar o que tu me diria se eu tropeçasse na tua frente. Vou caminhar pelas ruas achando que posso te ver. Eu só fico sem fome quando estou nervosa.. (e ainda me pergunto o porquê? Estou sem você, oras) Vou lembrar da tua risada e achar graça sozinha abrindo e fechando a tua janela. E vou passar por uma loja e tirar uma foto. Dizer que sinto saudade assim, só pelo reflexo do vidro. Ou da tela.`,
+            text: `Não sei terminar brigas sem desaparecer. 
+Não vou perguntar teu signo tão explicitamente, mas vou fazer cálculo da tua lua e do teu ascendente. 
+
+Vou lembrar de ti quando tocar a música. 
+E em silêncio imaginar o que tu me diria se eu tropeçasse na tua frente.
+Vou caminhar pelas ruas achando que posso te ver. 
+
+Eu só fico sem fome quando estou nervosa.. 
+(e ainda me pergunto o porquê? Estou sem você, oras) 
+
+Vou lembrar da tua risada e achar graça sozinha abrindo e fechando a tua janela. 
+E vou passar por uma loja e tirar uma foto. 
+Dizer que sinto saudade assim, 
+só pelo reflexo do vidro. 
+Ou da tela.`,
             short_sentence: `Vou lembrar de ti quando tocar a música`
         },
         {
             title: `Perdoa, vai.`,
-            text: `Perdoa meus excessos. É essa minha vênus em escorpião.`,
+            text: `Perdoa meus excessos. 
+É essa minha vênus em escorpião.`,
             short_sentence: `É essa minha vênus em escorpião`
         },
         {
             title: `24.01.19`,
-            text: `Fala que me ama, eu fico reticente... É o meu medo, entende? Do fim que sempre vem. A reticência é a forma gramatical que me salva do fatalismo. Como se, no papel, eu pudesse fazer com que as coisas não acabem. Que música estava tocando a primeira vez que tu me disse 'eu te amo'? E o que eu respondi? Eu também... Cara, eu também morro de medo de me envolver (sussurrei).`,
+            text: `Fala que me ama, eu fico reticente... 
+
+É o meu medo, entende?
+Do fim que sempre vem.
+
+A reticência é a forma gramatical que me salva do fatalismo.
+Como se, no papel, eu pudesse fazer com que as coisas não acabem.
+
+Que música estava tocando a primeira vez que tu me disse “eu te amo”? 
+E o que eu respondi? 
+Eu também... 
+
+Cara, eu também morro de medo de me envolver 
+(sussurrei).
+`,
             short_sentence: `Cara, eu também morro de medo de me envolver`
         },
         {
             title: `Refaço`,
-            text: `Entre caixas e sacolas, malas e roupas amarrotadas, todas empilhadas, preparo minha mudança. Deixo frestas abertas de persiana velha para que a luz entre gentil, encoste no chão de taco marrom, e se faça presente neste salão agora vazio. A casa está cheia. De mim. Espaço. Danço e danço, ao som da televisão que só serve para cantarolar. Abraço. Abro meus braços, de olhos fechados e me entrego ao passo me pegando pela mão. Desfaço. A crença até então engolida seca e embalada a vácuo do que é ser. Rechaço. Não sou uma ilha. Se ser é o que se é e o que se pode, sou filha. Uma criação, um poema, de olhos e boca, e respiro profundo. Do mundo. Algo mudou aqui dentro. Me pego no colo, de cor âmbar, minha pele, espuma de mar. Refaço. O caminho, refaço.`,
+            text: `Entre caixas e sacolas, malas e roupas amarrotadas, todas empilhadas, preparo minha mudança. 
+
+Deixo frestas abertas de persiana velha para que a luz entre gentil, encoste no chão de taco marrom, e se faça presente neste salão agora vazio. 
+
+A casa está cheia. 
+De mim. 
+
+Espaço. 
+
+Danço e danço, ao som da televisão que só serve para cantarolar. 
+
+Abraço. 
+
+Abro meus braços, de olhos fechados e me entrego ao passo me pegando pela mão. 
+
+Desfaço. 
+
+A crença até então engolida seca e embalada a vácuo do que é ser. 
+
+Rechaço. 
+
+Não sou uma ilha. Se ser é o que se é e o que se pode, sou filha. 
+Uma criação, um poema, de olhos e boca, e respiro profundo. 
+
+Do mundo. 
+
+Algo mudou aqui dentro. 
+
+Me pego no colo, de cor âmbar, minha pele, espuma de mar. 
+
+Refaço. 
+
+O caminho eu refaço.`,
             short_sentence: `Algo mudou aqui dentro`
         },
         {
             title: `3`,
-            text: `Escrevo do dia 3. O meu número de personalidade na numerologia. Chamam de 'número da borboleta'. Meu quarto? 303. Estou em Chiang Mai. A lua ainda tá cheia? Não tenho certeza, mas eu li em algum dos perfis de astrologia que eu sigo que é um bom momento para estar perto de quem se ama. Estou. O WhatsApp funciona mal, foram mais de mil imagens, não sei quantos km rodados, poucos ainda. Quantas pessoas já nos passamos por? Gosto de ser mil vezes eu, todas as eus possíveis. E eu posso. Quantas passaram por mim até aqui? Foram 18 anos olhando para o outro lado do mapa e imaginando como seria estar onde estou hoje. Virei de ponta cabeça. E hoje já é sexta-feira. Sinto insônia, mas meu peito tá cheio. Cheio que parece que vai explodir como uma bomba de purpurina no carnaval. Imagina uma bomba de purpurina explodindo na São João? Tem pra todo o mundo. Bebo uma bebida doce e ácida, um orgasmo de sabores invade meu paladar. Minha pupila se expande, meus pés já tem dores que me fazem rir. Minhas coxas já tem roxos. Minha boca tem sorrisos intermináveis. Intensidade... ela é permitida por aqui. Luzes neon me dizem que já passa das 2. Me vejo toda azul. Solto meu cabelo, deito essa cabeça que fervilha e brilha o teto sem parar. Aprendi a falar olá e obrigada em tailandês e gostei de não entender direito as coisas daqui. Descobrir tem dessas maluquices deliciosas que não sei bem explicar. It’s a big world after all. And if you can see me, how about we meet halfway?`,
+            text: `Escrevo do dia 3. O meu número de personalidade na numerologia. Chamam de “número da borboleta”. Meu quarto? 303. Estou em Chiang Mai. A lua ainda tá cheia? Não tenho certeza, mas eu li em algum dos perfis de astrologia que eu sigo que é um bom momento para estar perto de quem se ama. Estou. O WhatsApp funciona mal, foram mais de mil imagens, não sei quantos km rodados, poucos ainda. Quantas pessoas já nos passamos por? Gosto de ser mil vezes eu, todas as eus possíveis. E eu posso. Quantas passaram por mim até aqui? Foram 18 anos olhando para o outro lado do mapa e imaginando como seria estar onde estou hoje. Virei de ponta cabeça. E hoje já é sexta-feira. Sinto insônia, mas meu peito tá cheio. Cheio que parece que vai explodir como uma bomba de purpurina no carnaval. Imagina uma bomba de purpurina explodindo na São João? Tem pra todo o mundo. Bebo uma bebida doce e ácida, um orgasmo de sabores invade meu paladar. Minha pupila se expande, meus pés já tem dores que me fazem rir. Minhas coxas já tem roxos. Minha boca tem sorrisos intermináveis. Intensidade... ela é permitida por aqui. Luzes neon me dizem que já passa das 2. Me vejo toda azul. Solto meu cabelo, deito essa cabeça que fervilha e brilha o teto sem parar. Aprendi a falar olá e obrigada em tailandês e gostei de não entender direito as coisas daqui. 
+Descobrir tem dessas maluquices deliciosas que não sei bem explicar. 
+
+
+
+
+
+
+
+
+
+It’s a big world after all. 
+
+And if you can see me, how about we meet  halfway?`,
             short_sentence: `A lua ainda tá cheia? Não tenho certeza`
         },
         {
             title: `Cat Ba`,
-            text: `Escamamos todos os dias e Deixamos restos de nós por aí. Eu gosto do que é meu. Eu gosto de deixar rastros.`,
+            text: `Escamamos todos os dias e
+Deixamos restos de nós por aí. 
+
+Eu gosto do que é meu. 
+Eu gosto de deixar rastros.`,
             short_sentence: `Eu gosto de deixar rastros`
         },
         {
@@ -319,93 +407,431 @@ E com essa memória falha eu até já me esqueci que não posso te pensar tanto 
         },
         {
             title: `Angkor Wat`,
-            text: `Aberturas arabescas que brincam com sombra e luz em tom dourado no sol das 7. Existem portas sem portas e janelas sem janelas, só vãos. Existe um lugar onde tudo pode, tudo porta, tudo é janela aberta. Entrada e saída. Ir e vir. E estátuas sem cabeça. Serão sem coração?`,
+            text: `Aberturas arabescas, que brincam com sombra e luz, em tom dourado no sol das 7. 
+
+
+Existem portas sem portas 
+E janelas sem janelas, 
+Só vãos. 
+
+Existe um lugar onde tudo pode, 
+Tudo porta, 
+Tudo é janela aberta. 
+
+
+Entrada e saída. 
+O ir e o vir. 
+
+
+
+E as estátuas sem cabeça
+
+
+Serão sem coração?`,
             short_sentence: `Existem portas sem portas e janelas sem janelas, só vãos`
         },
         {
             title: `Hate to wait`,
-            text: `Hate to wait (because I know I’m gonna forget you easily if you take it any longer).`,
+            text: `Hate to wait 
+            (because I know I’m gonna forget you easily if you take it any longer).`,
             short_sentence: `Hate to wait`
         },
         {
             title: `Feliz Ano Novo`,
-            text: `Escrevo pra contar que neste 2019 está tudo bem. E até mesmo pareço sorrir sem perceber. Neste verão peguei sol, esqueci o protetor solar, mas não me queimei tanto. Até usei um chapéu, sabia? Bem bonito que comprei num brechó paulistano na Augusta. Amo os brechós de lá. Foi a Francine que me levou. Umas vezes pisei levinho na água gelada, aquele meu jeito de ir devagar. Outras mergulhei profundo. Boiei raso. Pulei torto. Caí. Quase caí. E cair foi bom. Um infinito verão finito. Quantas estações se passaram entre aquele nosso primeiro esbarro entre cílios até a hora do jantar? Queimei alguns papéis velhos. E alguns velhos papéis que não se encaixam mais, minha cara. O eclipse tá pedindo que a gente escreva e queime. E libere. Solte. E diga adeus com uma mão no peito e a outra entrelaçada na gente. Nas gentes. Cara, em italiano. Este é o significado. Você já fez carinho em você? É tão bom sentir a pele. Me peço em casamento quando me dou carinho. Feliz ano novo todos os dias. E feliz estar aqui. Estando, no gerúndio. Com a tua íris me lendo atentamente. Te digo olhando no olho que queria ter mil horas só pra falar contigo e contar as boas novas. E chorar os finais, mas depois gargalhar boba das piadas criadas em outras línguas E assistir aquela série que amamos naquele sofá velho e cinza e confortável com um buraco no meio. Olha só, eu quero te contar e eu não tenho mais medo. Que coragem é essa que vem do meio do peito? E te dizer que eu sinto saudade de muita gente. E eu sinto amor também. E eu to sentindo que apesar do mundo estar tão louco ainda é bom estar viva. É teu aniversário. Feliz ano novo hoje também.`,
+            text: `Escrevo pra contar que neste 2019 está tudo bem. 
+E até mesmo pareço sorrir sem perceber.
+
+Neste verão peguei sol, esqueci o protetor solar, mas não me queimei tanto. Até usei um chapéu, sabia?  Bem bonito que comprei num brechó paulistano na Augusta.  
+ Amo os brechós de lá. Foi a Francine que me levou. 
+
+Umas vezes pisei levinho na água gelada, aquele meu jeito de ir devagar. Outras mergulhei profundo. Boiei raso.  
+ Pulei torto. Caí.  Quase caí.  E cair foi bom.  Um infinito verão finito.
+
+Quantas estações se passaram entre aquele nosso primeiro esbarro entre cílios até a hora do jantar?
+
+Queimei alguns papéis velhos.  E alguns velhos papéis que não se encaixam mais,  minha cara. 
+
+O eclipse tá pedindo que a gente escreva e queime.  E libere.  Solte. 
+ 
+ E diga adeus com uma mão no peito e a outra entrelaçada na gente.  Nas gentes. 
+
+Cara, em italiano.
+Este é o significado. 
+ 
+ Você já fez carinho em você?  É tão bom sentir a pele. 
+
+Me peço em casamento quando me dou carinho. 
+
+Feliz ano novo todos os dias. 
+E feliz estar aqui. 
+Estando, no gerúndio. 
+Com a tua íris me lendo  atentamente.
+
+Te digo olhando no olho que queria ter mil horas só pra falar contigo e contar as boas novas. E chorar os finais, mas depois gargalhar boba das piadas criadas em outras línguas 
+ E assistir aquela série que amamos naquele sofá velho e cinza e confortável com um buraco no meio.
+
+Olha só, eu quero te contar e eu não tenho mais medo. 
+Que coragem é essa que vem do meio do peito?
+
+E te dizer que eu sinto saudade de muita gente.  E eu sinto amor também. 
+ 
+ E eu to sentindo que  apesar do mundo estar tão louco  ainda é bom estar viva. 
+
+ É teu aniversário. Feliz ano novo hoje também.`,
             short_sentence: `Feliz ano novo todos os dias`
         },
         {
             title: `Bueiros explodem`,
-            text: `Falar que te amo em voz alta É como pisar em bueiros.`,
+            text: `Falar que te amo em voz alta 
+            É como pisar em bueiros.`,
             short_sentence: `É como pisar em bueiros`
         },
         {
             title: `Please, faça-me rir.`,
-            text: `The sun - and he says: you are mine And I'm your morning star. Laughing at us, very near, I can see myself inside your eyes. I love when you look at me (me desvestindo con la mirada) But love you more when you make me smile. Make me smile Faça-me rir, Please (me) One more time.`,
+            text: `The sun  
+
+ - and he says: you are mine  
+ 
+And I'm your morning star. 
+
+ Laughing at us,
+very near,
+I can see myself 
+inside
+your eyes.
+ 
+ I love when you look at me  
+(me desvestindo con la mirada) 
+
+But love you more
+when you make me smile.
+ 
+ Make me smile 
+Faça-me rir,
+
+Please (me)
+One more time`,
             short_sentence: `I love when you look at me and I love you more when you make me smile`
         },
         {
             title: `Caixa D'Água`,
-            text: `Talvez um dia você me ligue Em tempos diferentes, outra década E digamos ao mesmo tempo Que sentimos muito E Mesmo que isso signifique mil coisas E Que olhar nos olhos não seja mais uma condição, Eu entenda exatamente o porquê da minha caixa d'água Cravada na testa ter começado a rachar.`,
+            text: `Talvez um dia você me ligue
+Em tempos diferentes,  outra década 
+E digamos ao mesmo tempo
+Que sentimos muito 
+
+E
+
+Mesmo que isso signifique mil coisas
+
+E 
+
+Que olhar nos olhos não seja mais uma condição,
+
+Eu entenda exatamente o porquê da minha caixa d'água 
+Cravada na testa  
+Ter começado a rachar.`,
             short_sentence: `o porquê da minha caixa d'água cravada na testa ter começado a rachar`
         },
         {
             title: `Casa Cidade`,
-            text: `Se eu fosse uma cidade Me diz Tu faria morada em mim?`,
+            text: `Se eu fosse uma cidade 
+Me diz,
+
+De mim,
+tu faria morada?`,
             short_sentence: `Se eu fosse uma cidade Me diz Tu faria morada em mim?`
         },
         {
             title: `O Chaveiro da Lina`,
-            text: `O sol bateu 'cedo' (para um domingo, me entendam bem). Parecia tipo umas 9 da manhã. Meus olhos, ainda descolando, viraram para o lado Esquerdo. A janela tinha ficado aberta? Gosto de gin, vinho, vodka e tequila na boca. Tateei bem o travesseiro ao lado e vi, ainda que turva e confusamente, eu estava sozinha na cama. Ela parecia gigante. Meu espaço? Pequeno. Como é que eu não ouvi? Como abriu a porta? Quem não fica nem para um café? Eu teria feito um baita desjejum... O café da manhã é sempre a melhor refeição. Me levanto, saio sorrateira da minha própria cama, pé-por-pé, olhando desconfiada pela casa, como se fosse encontrar peças-chave para desvendar um crime. Por um acaso encontro meu celular com 2% de bateria, jogado no sofá, ao lado de uma camiseta surrada. Quase passa do meio dia... Mensagem? Nada. Foi embora e não deixou nem um sinal. Não vou mandar porra nenhuma. Onde já se viu? (pensei)... mas 'pensar' já é 'pensar em fazer', não é mesmo? Dois copos de água em cima da mesa. Praticamente intactos... Me lembro da noite. A gente meio bêbado, meio risonhos. Desejosamente agressivos, espantosamente gozados. Felinamente carinhosos. Pacificamente adormecidos. Dou mais três passos em direção à porta e sinto que pisei em algo que grudou. Era um post-it amarelo fluorescente que tinha caído de algum lugar. O vento. 'Peguei tua chave com o chaveiro das cadeiras da Lina Bo Bardi. O meu preferido. Volto com pão.' É, ele também era o meu preferido.`,
+            text: `O sol bateu “cedo”  (para um domingo, me entendam bem) 
+ Parecia, tipo, umas 9 da manhã. 
+ 
+ Meus olhos,  ainda descolando,  viraram para o lado
+ 
+ Esquerdo. 
+ 
+ A janela tinha ficado aberta? 
+ 
+ Gosto de gin, vinho, vodka e tequila na boca.  
+ Tateei bem o travesseiro ao lado e vi, ainda que turva e confusamente, eu estava sozinha na cama.  
+ Ela parecia gigante.  
+ Meu espaço?  Pequeno. 
+ 
+ Como é que eu não ouvi? 
+Como abriu a porta? 
+Quem não fica nem para um café? 
+ 
+ Eu teria feito um baita desjejum... 
+ 
+ O café da manhã é sempre a melhor refeição.
+
+Me levanto,  saio sorrateira da minha própria cama,  pé-por-pé,  olhando desconfiada pela casa,  como se fosse encontrar peças-chave para desvendar um crime. 
+ 
+ Por um acaso encontro meu celular com 2% de bateria,  jogado no sofá, ao lado de uma camiseta surrada.  Quase passa do meio dia... 
+ 
+ Mensagem?  Nada.  
+ Foi embora e não deixou nem um sinal.  Não vou mandar porra nenhuma.  Onde já se viu? (pensei)...  mas “pensar” já é “pensar em fazer”,  não é mesmo? 
+ 
+ Dois copos de água em cima da mesa.  Praticamente intactos... 
+ 
+ Me lembro da noite. 
+ 
+ A gente meio bêbado, meio risonhos.
+ 
+Desejosamente agressivos,  espantosamente gozados.  Felinamente carinhosos.  Pacificamente adormecidos. 
+ Dou mais três passos em direção à porta
+E sinto que pisei em algo que grudou.  
+ Era um post-it amarelo fluorescente que tinha caído de algum lugar.  
+ O vento. 
+ “Peguei tua chave  com o chaveiro das cadeiras da Lina Bo Bardi.  O meu preferido.  Volto com pão.” 
+
+É, ele também era o meu preferido.`,
             short_sentence: `Volto com pão`
         },
         {
             title: `Anunciação`,
-            text: `Venho por meio deste, profanamente, anunciar Aos poucos Palavra por palavra Enrolando até cansar Que todas essas bandeiras, brancas e vermelhas, tento ponderar, mas, porém, entretanto, te amar já resulta inevitável.`,
+            text: `Venho por meio deste,  
+profanamente, 
+anunciar
+ 
+Aos poucos
+
+Palavra 
+por 
+palavra
+
+
+Enrolando até cansar
+
+
+Que todas essas bandeiras, 
+brancas e vermelhas,
+tento ponderar, 
+ mas, porém, entretanto,
+ já resulta inevitável.`,
             short_sentence: `Te amar já resulta inevitável`
         },
         {
             title: `Ruídos de uma luta livre`,
-            text: `Em caso de braços abertos avance ronronando`,
+            text: `Em caso de braços abertos 
+            avance ronronando`,
             short_sentence: `Avance ronronando`
         },
         {
             title: `Arma de guerra`,
-            text: `A lágrima também é uma arma de guerra. A cada queda, destruição.`,
+            text: `A lágrima também é uma arma de guerra. 
+            A cada queda, 
+            destruição.`,
             short_sentence: `A lágrima também é uma arma de guerra`
         },
         {
-            title: `Poesia a la Belle & Sebastian`,
-            text: `Colore o meu mundo com as cores do caos de uma estrela em plena combustão.`,
+            title: `Poésie a la Belle & Sebastian`,
+            text: `Colore o meu mundo
+com as cores 
+do caos
+de uma estrela 
+em plena combustão.`,
             short_sentence: `Colore o meu mundo com as cores do caos`
         },
         {
             title: `Ei, mujer.`,
-            text: `Essa história não é minha É só o que eu decidi contar.`,
+            text: `Essa história não é minha
+É só o que eu decidi contar.
+
+É só o que eu decidi contar das frações de presença. 
+Do presente dos momentos. 
+E de como a vida me acometeu. 
+Arrematou. 
+E me arremessou aqui. 
+
+Essa não é a minha vida, 
+essa não é a minha história, 
+nem o resumo dela. 
+
+É só o que eu decidi contar.`,
             short_sentence: `Essa história não é minha`
         },
         {
             title: `Temporal`,
-            text: `Bastou um bilhete antigo para cair um temporal em mim. Não sei por que guardo esse tipo de passado no bolso esquerdo da minha jaqueta.`,
+            text: `Bastou um bilhete antigo para cair um temporal em mim. 
+            Não sei por que guardo esse tipo de passado no bolso esquerdo da minha jaqueta.`,
             short_sentence: `Bastou um bilhete antigo para cair um temporal em mim`
         },
         {
             title: `Big Little Evidências`,
-            text: `Vi na borra do café que Maria Clara me serviu na quinta passada. Era você. Não me enganei não. Consultei uma taróloga que dizia que éramos almas-gêmeas. Uma? Não. Umas 10. Acreditei. Evidências, certo? E, pra falar a verdade, consultei oráculos infinitos, e muitos disseram que nós dois? Não ia rolar. Esses aí eu nunca mais voltei.`,
+            text: ` Vi na borra do café que Maria Clara me serviu na quinta passada. 
+ 
+Era você. 
+Não me enganei não. 
+ 
+Consultei uma taróloga que dizia que éramos almas-gêmeas. 
+Uma? 
+Não. 
+Umas 10. 
+
+Acreditei. 
+
+Evidências, certo? 
+
+
+E, 
+pra falar a verdade, 
+consultei oráculos infinitos,  
+e muitos disseram que nós dois? 
+Não ia rolar. 
+
+Esses aí eu nunca mais voltei.`,
             short_sentence: `Vi na borra do café`
         },
         {
             title: `CENTRO DE REABILITAÇÃO`,
-            text: `Eu não quero ser um centro de reabilitação para gente de coração partido se aventurar. Foram algumas centenas de piscadas incontroláveis para entender o que o correr do sangue nas minhas veias queria me contar. Procure outra droga mais viciante do que se apaixonar.`,
+            text: `Eu não quero ser um centro de reabilitação para gente de coração partido se aventurar. 
+
+Foram algumas centenas  de incontroláveis batidas des de pálpebras 
+a secura na boca o corpo em abstinência observando o definhar para entender o que o correr do sangue nas minhas veias 
+queria me contar. 
+
+
+Procure outra droga mais viciante do que se apaixonar.`,
             short_sentence: `Procure outra droga mais viciante do que se apaixonar`
         },
         {
             title: `Tantra`,
-            text: `Me olhou no olho com a pupila dilatada tentando não (se) ofuscar. Respirou profundo pelo nariz E soltou o ar quente nos meus ombros, quase encostando a boca. Arrepio. Do colo à coxa. Me faltando ar. Deslizou uma das mãos até o início do meu pescoço E abriu um sorriso sacana, posicionando a cabeça de modo peculiar. Onde começa um pescoço? Onde termina? Da ponta dos pés me desequilibrava Minha boca que salivando, chegava no quase, milimetricamente, E eu não conseguia mais me segurar. Ele, já muito centrado, irritantemente paciente Se distanciava e aproximava como um iô-iô para a cena observar. De uma crueldade abissal. E eu, presa fácil que sou mesmo, só pensava em me jogar. QUEDA LIVRE. Depois de (nem) resistir, já entregue a tudo o que me oferecia, mesmo que pouco, pouco, quase nada, por vencida já me dava. Quem perdeu aqui? Nem o tempo. Olhei para cima, ainda zonza, num zig-zag mental muito louco, onde via estrelas de cores jamais imaginadas numa janela do hemisfério norte de qualquer lugar, sentei-me à cama para tomar um ar. Pensei 'Morar eternamente naqueles segundos já me faria feliz' Quando, de repente, sinto seus dedos, sutilmente, deslizarem entre os meus cabelos, bagunçados, e percorrerem o caminho sagrado do topo da minha cabeça até a ponta do meu nariz.`,
+            text: `Me olhou no olho com a pupila dilatada
+tentando não (se) ofuscar.
+
+Respirou profundo pelo nariz
+E soltou o ar quente nos meus ombros, 
+quase encostando a boca.
+
+Arrepio.
+Do colo à coxa.
+
+Me faltando ar.
+
+Deslizou uma das mãos até o início do meu pescoço 
+E abriu um sorriso sacana,
+posicionando a cabeça
+de modo peculiar.
+
+Onde começa um pescoço?
+Onde termina?
+
+Da ponta dos pés
+me desequilibrava
+
+Minha boca
+que salivando,
+chegava no quase, milimetricamente,
+E eu não conseguia mais me segurar.
+
+Ele,
+já muito centrado,
+irritantemente paciente
+
+
+Se distanciava e aproximava como um iô-iô 
+para a cena observar.
+De uma crueldade abissal.
+
+E eu, presa fácil que sou mesmo,
+só pensava em me jogar.
+
+QUEDA LIVRE.
+
+Depois de (nem) resistir,
+já entregue a tudo o que me oferecia,
+mesmo que pouco, pouco, 
+quase nada,
+por vencida já me dava.
+
+Quem perdeu aqui? 
+Nem o tempo.
+
+Olhei para cima,
+ainda zonza,
+num zig-zag mental muito louco,
+onde via estrelas de cores jamais imaginadas
+numa janela do hemisfério norte
+de qualquer lugar,
+sentei-me à cama para tomar um ar.
+
+Pensei 
+"Morar eternamente naqueles segundo já me faria feliz"
+
+Quando,
+de repente,
+sinto seus dedos,
+sutilmente,
+deslizarem entre os meus cabelos,
+bagunçados,
+e percorrerem o caminho sagrado
+
+do topo da minha cabeça
+até a ponta do meu nariz. `,
             short_sentence: `Se distanciava e aproximava como um iô-iô`
         },
         {
             title: `Still learning that`,
-            text: `It’s been years and countries and people. An amount of alcohol and some drugs, cigarros, sweets and coffees. Emails and pictures, and the absence of all, and dirty places just like the sacred ones. It’s been hours, and years, and it’s been hard, never easy, highs and lows, and sad truths or even bittersweet lies, til I find what matters most in life. O amor é um verbo. Love is an act.`,
+            text: `It’s been years 
+and countries 
+and people.
+
+An amount of alcohol 
+and some drugs, 
+cigarretes,
+sweets and
+coffees.
+
+Emails and pictures, 
+and the absence of all, 
+and dirty places just like the sacred ones. 
+
+It’s been hours, 
+ and years, 
+ and it’s been hard, 
+never easy, 
+ 
+ highs and lows, 
+and sad truths  or even bittersweet lies, 
+
+til I find what matters most in life.
+
+O amor é um verbo. 
+Amar és un acto.`,
             short_sentence: `O amor é um verbo. Love is an act`
         }
     ]
 }
+{
+            title: `Nudez`,
+            text: `E tudo isso, não é um tipo de nudez? 
+
+Eu estou aqui, 
+agora.
+
+Nua, 
+para você. 
+
+Todas as minhas palavras - sobre aquele tempo - foram delicadamente escolhidas,  desvestidas,  
+banhadas,  
+degustadas,  
+mastigadas,  
+engolidas,  
+aspiradas  
+e cuspidas. 
+
+Aqui,
+agora.
+
+E ainda sim,  
+não há nada que você saiba de mim
+
+					que eu não queira te contar.
+ 
+ 
+Toda nudez começa pelos dedos.
+`,
+            short_sentence: `ão há nada que você saiba de mim que eu não queira te contar.`
+        }
