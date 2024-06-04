@@ -23,12 +23,85 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
     poems: [
         {
             title: `Te vendo a 5 reais`,
-            text: `Para de me procurar. De me ligar dos teus pensamentos. Bloqueei teu telefone ainda em outro ano. Parece um século. Já passou dezembro… Encerramos há tanto, tanto tempo. Tantas vezes... Tantos fins, Tantos finais, Tantos pontos profundos e profanos arguidos com cirúrgica precisão que atravessaram madrugadas tentando... se fazer Ter razão?! Página virada em meio a ventania sempre volta, assim fantasma, para a assombrar com frases que esquecemos de ponderar... Marca texto some com o tempo. Releio. Rabisco com lápis. Deixamos Passar Batidas. O relógio não funciona mais. O peito, arritmia. A tua percussão, não me daria o ritmo e o pulso de virar, rodopiando, feito bailarina de coque alto e toda de branco, para o passado latitudinal que nos fazia possíveis. Palco pra que? As cortinas estavam fechadas. Sempre estiveram. E o que eu quero é fechar o livro de ti. Te encerrar, te doar, te vender a 5 reais numa feira de artesanato. Onde eu escreveria uma nota, em três partes, e colaria num pequeno porta-retrato: 'Vendo a 5 reais: Aquele que eu nunca consegui deixar para trás.'`,
+            text: `Para de me procurar. 
+
+De me ligar dos teus pensamentos. 
+Bloqueei teu telefone ainda em outro ano. 
+
+Parece um século.
+Já passou dezembro…
+
+Encerramos há tanto, 
+tanto tempo. 
+
+Tantas vezes...
+Tantos fins,
+Tantos finais, 
+
+Tantos pontos profundos e profanos arguidos com cirúrgica precisão que atravessaram madrugadas tentando... 
+se fazer
+
+Ter razão?!
+
+Página virada em meio a ventania sempre volta, 
+assim fantasma, 
+
+para a assombrar com frases que esquecemos de 
+ponderar... 
+
+Marca texto some com o tempo.
+
+Releio. 
+Rabisco com lápis.
+
+Deixamos
+Passar
+Batidas.
+
+O relógio não funciona mais. 
+O peito, arritmia. 
+
+A tua percussão, não me daria o ritmo e o pulso de virar, rodopiando, feito bailarina de coque alto e toda de branco, para o passado latitudinal que nos fazia possíveis. 
+
+Palco pra que? 
+As cortinas estavam fechadas. 
+
+Sempre estiveram. 
+
+E o que eu quero é fechar o livro de ti. 
+Te encerrar, te doar, te vender a 5 reais numa feira de artesanato. 
+Onde eu escreveria uma nota, em três partes, e colaria num pequeno porta-retrato: 
+
+"Vendo a 5 reais: 
+
+Aquele que eu nunca 
+
+consegui deixar para trás."`,
             short_sentence: `te vender a 5 reais numa feira de artesanato`
         },
         {
             title: `Clichê cafona para te ver chegar`,
-            text: `Quero te esperar como alguém que espera o relógio pontual marcar a hora exata entre um minuto e uma decisão importantíssima e improrrogável para salvar o planeta ou desligar o fogão quando a chaleira assoviar, o leite subir e não derramar, a cafeteira avisar que o café tá pronto e quente. E te abraçar forte como em um encontro clássico de cinema. Vir correndo na tua direção, ainda que desengonçada, no aeroporto de Roma (aquele que dormi no dia do meu aniversário em 2017 quando perdi um vôo para Paris), jogar as malas no chão e abrir um sorriso com os olhos marejados de paixão ao ver que o teu cabelo cresceu e tu não te importou. Quero tomar um vinho contigo, acompanhado de água com gás, deitada no sofá, clichezona, eu sei, por que eu pensei mil vezes no que estaria vestindo ao te ver chegar, mas nada parecia tão perfeito quanto a tua camiseta velha e surrada que virou minha companheira. E, fitando teu nariz pontudinho e cheio de manchinhas, te contar das coisas mais bobas possíveis que fiz enquanto estávamos longe um do outro. Como quantos roxos eu adquiri ao andar por 9h de bicicleta, quantas vezes minhas unhas quebraram durante estes dias, que tive que tomar muito dramin para navegar em mar aberto ou que toda vez que lia um rótulo de produto no supermercado e fingia que compreendia aquelas palavras em outros símbolos, a tua voz vinha na minha cabeça me chamando de engraçada por que eu criava uma nova língua que só nós dois entendíamos. Sempre gostei de te fazer rir sem controle. Acho linda a tua cara envergonhada. Acho linda a tua risada solta. Tu viu que eu to cheia de sardinhas por causa do sol? Tá tocando uma música que poderia muito ser nossa trilha sonora. Eu não prometo que não vou fazer uma playlist no spotify para te ver chegar. E quando te encontrar eu quero te dizer que passei na loja de souvenir do mercadinho de Natal e comprei um chaveiro de urso com a primeira letra do teu nome, bem brega eu sei. Queria te dar de presente para não esquecer de mim quando nos despedirmos novamente. E também vou saber que tu nunca vai usar ele como chaveiro, e talvez tu até perca ele em algum lugar por distração, e isso vai me magoar, mas eu sei, no fundo que o teu apego é com coisas mais vivas do que ursos de pelúcia e passados distantes. E eu gosto do teu apego quando ele é meu. Eu nunca pude ter ursos de pelúcia mesmo. Mas eu gosto de saber que por instantes eu posso te ter no presente. Quero te esperar como alguém que espera o trem na plataforma gelada do inverno de graus abaixo de zero e árvores de natal decoradas com estrelas feitas de cristais que brilham e cantam, só pra te dizer que tudo bem, eu posso dormir esta noite do lado esquerdo da cama. Mesmo sabendo que eu sempre escolheria o direito. Porque brigaríamos eternamente por ele só por birra ou implicância. E terminaríamos os dois desafiando a lei da física deitados empilhados como duas caixas de sapato no armário ou dois corpos que, inexplicavelmente, se atraem para se fundir em um só, mesmo quando nós mesmos fugimos desses contos cafonas de amor. A verdade toda é que eu invento mil formas para te esperar, por que já espero sem desculpa nenhuma tu bater na minha porta, de mala e cuia e de peito aberto. E eu de pijama e chá quente na mão, como no fim de um filme romântico, bem cafona e bem clichê, me surpreenda que abaixo de chuva torrencial e ao som de um pop chiclete, abra a porta, os braços e te veja, enfim, chegar para ficar.`,
+            text: `Quero te esperar como alguém que espera o relógio pontual marcar a hora exata entre um minuto e uma decisão importantíssima e improrrogável para salvar o planeta ou desligar o fogão quando a chaleira assoviar, o leite subir e não derramar, a cafeteira avisar que o café tá pronto e quente. 
+
+E te abraçar forte como em um encontro clássico de cinema. Vir correndo na tua direção, ainda que desengonçada, no aeroporto de Roma (aquele que dormi no dia do meu aniversário em 2017 quando perdi um vôo para Paris), jogar as malas no chão e abrir um sorriso com os olhos marejados de paixão ao ver que o teu cabelo cresceu e tu não te importou. 
+
+Quero tomar um vinho contigo, acompanhado de água com gás, deitada no sofá, clichezona, eu sei, por que eu pensei mil vezes no que estaria vestindo ao te ver chegar, mas nada parecia tão perfeito quanto a tua camiseta velha e surrada que virou minha companheira. E, fitando teu nariz pontudinho e cheio de manchinhas, te contar das coisas mais bobas possíveis que fiz enquanto estávamos longe um do outro. Como quantos roxos eu adquiri ao andar por 9h de bicicleta, quantas vezes minhas unhas quebraram durante estes dias, que tive que tomar muito dramin para navegar em mar aberto ou que toda vez que lia um rótulo de produto no supermercado e fingia que compreendia aquelas palavras em outros símbolos, a tua voz vinha na minha cabeça me chamando de engraçada por que eu criava uma nova língua que só nós dois entendíamos. Sempre gostei de te fazer rir sem controle. 
+
+Acho linda a tua cara envergonhada. 
+Acho linda a tua risada solta. 
+
+Tu viu que eu to cheia de sardinhas por causa do sol? 
+
+Tá tocando uma música que poderia muito ser nossa trilha sonora. 
+Eu não prometo que não vou fazer uma playlist no spotify para te ver chegar.
+
+E quando te encontrar eu quero te dizer que passei na loja de souvenir do mercadinho de Natal e comprei um chaveiro de urso com a primeira letra do teu nome, bem cafona eu sei. 
+
+Queria te dar de presente para não esquecer de mim quando nos despedirmos novamente. E também vou saber que tu nunca vai usar ele como chaveiro, e talvez tu até perca ele em algum lugar por distração, e isso vai me magoar, mas eu sei, no fundo que o teu apego é com coisas mais vivas do que ursos de pelúcia e passados distantes. E eu gosto do teu apego quando ele é meu. Eu nunca pude ter ursos de pelúcia mesmo. Mas eu gosto de saber que por instantes eu posso te ter no presente. 
+
+Quero te esperar como alguém que espera o trem na plataforma gelada do inverno de graus abaixo de zero e árvores de natal decoradas com estrelas feitas de cristais que brilham e cantam, só pra te dizer que tudo bem, eu posso dormir esta noite do lado esquerdo da cama. Mesmo sabendo que eu sempre escolheria o direito. Porque brigaríamos eternamente por ele só por birra ou implicância. E terminaríamos os dois desafiando a lei da física deitados empilhados como duas caixas de sapato no armário ou dois corpos que, inexplicavelmente, se atraem para se fundir em um só, mesmo quando nós mesmos fugimos desses contos cafonas de amor. 
+
+A verdade toda é que eu invento mil formas para te esperar, por que já espero sem desculpa nenhuma tu bater na minha porta, de mala e cuia e de peito aberto. E eu de pijama e chá quente na mão, como no fim de um filme romântico, bem cafona e bem clichê, me surpreenda que abaixo de chuva torrencial e ao som de um pop chiclete, abra a porta, os braços e te veja, enfim, chegar pra ficar.`,
             short_sentence: `Quero te esperar como alguém que espera o trem na plataforma`
         },
         {
@@ -72,17 +145,102 @@ Foi você.
         },
         {
             title: `Toalha`,
-            text: `A tua toalha pendurada na porta do meu armário. E tu, dentre pele, suor, saliva, deixou uma pasta de dente, alguns fios de cabelos longos, um gosto de geléia de damasco e cinzas de um cigarro na minha estante. E nesse exato instante meu peito disritmou. Vem, por favor, buscar a bagunça que você deixou?`,
+            text: `A tua toalha pendurada na porta do meu armário. 
+
+E tu, dentre suor,
+pele, 
+saliva 
+
+deixou uma pasta de dente, 
+alguns fios de cabelos longos, 
+um gosto de geléia de damasco 
+e cinzas de um cigarro na minha estante.
+
+
+E nesse exato instante meu peito disritmou.
+
+Vem, 
+por favor, 
+buscar a bagunça que você deixou?`,
             short_sentence: `Vem, por favor, buscar a bagunça que você deixou?`
         },
         {
             title: `Atropelamento`,
-            text: `“TU ÉS UM ATROPELAMENTO” Disse ele, tomando ristretto, num cafezinho de esquina, ao pôr do sol rosado do inverno europeu, ainda que fosse no Brasil. Um gole só. Mãos cruzadas, encostadas no queixo, cobrindo o nariz. Ar de superioridade de todo homem de classe média branco cis hétero que mora em Sao Paulo. Me olhando no olho. Coçando a barba. Ensaiando um riso. Abrindo o peito. Silenciando cons-tran-gedoramente. ABRE ASPAS: 'Não entendi?! Existem tantas maneiras de se atropelar.. Que tipo de atropelamento eu posso ser?' Falo com voz em riste. Ainda que não saiba se gosto ou não dessa nova demarcação 'territorial' que fizeram sobre a minha personalidade. Disse, ele, engasgado, ajeitando a voz naquele 'hum hum' básico para limpar a garganta e prendendo o ar na barriga para levantar os ombros… Que eu penso demais. Que eu falo demais. Que eu sinto demais. Que eu atropelo, passo por cima, quebro, Faço parar. E depois corro, em chamas... queimando as ruas e avenidas E até os espaços de dentro que nunca foram nomeados. Mas ele, que nasceu pra ser asfalto, se assusta quando tudo se deixa levar aos pedaços. Em um confronto de forças letais E ainda sim, onde se vê espetáculo... Ele, que, se contorcendo, entra em combustão. Que fala constantemente de coragem... No primeiro sinal, apavora. E o calor que derrete cera nunca fez Ícaro voar até o sol.`,
-            short_sentence: `Me olhando no olho.`
+            text: `“TU ÉS UM ATROPELAMENTO”
+
+Disse ele, tomando ristretto, num cafezinho de esquina, ao pôr do sol rosado do inverno europeu, ainda que fosse no Brasil. 
+Um gole só.
+
+Mãos cruzadas, encostadas no queixo, cobrindo o nariz.
+Ar de superioridade de todo homem de classe média branco cis hétero que mora em Sao Paulo.
+
+Me olhando no olho.
+Coçando a barba.
+Ensaiando um riso.
+Abrindo o peito.
+
+Silenciando cons-tran-gedoramente.
+
+ABRE ASPAS:
+
+"Não entendi?! 
+Existem tantas maneiras de se atropelar..
+Que tipo de atropelamento eu posso ser?"
+Falo com voz em riste. 
+
+Ainda que não saiba se gosto ou não dessa nova demarcação "territorial" que fizeram sobre a minha personalidade. 
+
+Disse, ele, engasgado, ajeitando a voz naquele “hum hum” básico para limpar a garganta e prendendo o ar na barriga para levantar os ombros…
+
+
+Que eu penso demais.
+Que eu falo demais. 
+Que eu sinto demais.
+Que eu atropelo, 
+passo por cima,
+quebro,
+Faço parar. 
+
+E depois corro, em chamas
+queimando as ruas e avenidas 
+E até os espaços de dentro que nunca foram nomeados. 
+
+Mas ele, que nasceu pra ser asfalto, se assusta quando tudo se deixa levar aos pedaços
+em um confronto de forças letais
+e ainda sim, onde se vê espetáculo. 
+
+Ele, que, se contorcendo, entra em combustão.
+Que fala constantemente de coragem,
+no primeiro sinal, apavora.
+
+E o calor que derrete cera nunca fez Ícaro voar até o sol.`,
+            short_sentence: `E depois corro, em chamasmqueimando as ruas e avenidas`
         },
         {
             title: `Arte`,
-            text: `Ele passou a noite inteira falando sobre mil coisas que eu não lembro muito bem e eu só conseguia prestar atenção nos traços confusos dos braços e naquelas cores amareladas que davam tom à cena decadente e forte como a bebida que eu pedi e me arrependi depois, me perguntando quais tintas foram usadas e quanto tempo levou para ele ficar assim, tão ridiculamente bonito... tarde demais. E foi quando eu disse pra ele que ele parecia uma obra de arte. Disse? Também não lembro bem. Pensei. Isso com certeza. E arte, sabe? A arte não é para ser bonita como uma propaganda americana. Arte é para ser como a imperfeição, como o que te incomoda, como o fodidamente humano. O fogo visceral, o estranho que a gente deseja e estranha, não obstante o desejar. É aquele sentir sem saber explicar o que exatamente se está sentindo em contato com aquilo. É tipo o cabelo que cai e faz sombra para os olhos, a cicatriz no canto esquerdo do rosto, a roupa rasgada, manchada que a gente insiste em usar por que a gente nunca mais vai achar igual, é tipo alguém de bruços na cama com a nuca e as pintinhas nas costas para tracejar com os dedos e fazer desenhos abstratos em corpo alheio, é meio que mergulhar profundo num rio escuro e gelado e relaxar depois da tensão e do medo, o trânsito caótico e ainda sim fluido das cidades grandes e corrompidas, a parede pichada que te deixa uma mensagem foda pra vida, não saber para onde ir e continuar caminhando com os olhos no horizonte, é o silêncio enlouquecedor entre um suspiro e duas bocas se encontrando. Arte te contamina de imensidão e vazio. Presença e ausência. Tudo ao mesmo tempo. Ele era arte. Daquelas difíceis de não escrever sobre entre uma taça e uma despedida.`,
+            text: `Ele passou a noite inteira falando sobre mil coisas que eu não lembro muito bem e eu só conseguia prestar atenção nos traços confusos dos braços e naquelas cores amareladas que davam tom à cena decadente e forte como a bebida que eu pedi e me arrependi depois, me perguntando quais tintas foram usadas e quanto tempo levou para ele ficar assim, tão ridiculamente bonito... 
+tarde demais. 
+
+E foi quando eu disse pra ele que ele parecia uma obra de arte. Disse? 
+Também não lembro bem. 
+
+Pensei. 
+Isso com certeza. 
+
+E arte, sabe? 
+A arte não é para ser bonita como uma propaganda americana. 
+
+Arte é para ser como a imperfeição, como o que te incomoda, como o fodidamente humano. O fogo visceral, o estranho que a gente deseja e estranha, não obstante o desejar. É aquele sentir sem saber explicar o que exatamente se está sentindo em contato com aquilo. 
+
+É tipo o cabelo que cai e faz sombra para os olhos, a cicatriz no canto esquerdo do rosto, a roupa rasgada, manchada que a gente insiste em usar por que a gente nunca mais vai achar igual, é tipo alguém de bruços na cama com a nuca e as pintinhas nas costas para tracejar com os dedos e fazer desenhos abstratos em corpo alheio, é meio que mergulhar profundo num rio escuro e gelado e relaxar depois da tensão e do medo, o trânsito caótico e ainda sim fluido das cidades grandes e corrompidas, a parede pichada que te deixa uma mensagem foda pra vida, não saber para onde ir e continuar caminhando com os olhos no horizonte, é o silêncio enlouquecedor entre um suspiro e duas bocas se encontrando. 
+
+Arte te contamina de imensidão e vazio. 
+Presença e ausência. 
+Tudo ao mesmo tempo. 
+
+Ele era arte. 
+
+Daquelas difíceis de não escrever sobre entre uma taça e uma despedida.`,
             short_sentence: `Ele era arte`
         },
         {
@@ -92,12 +250,30 @@ Foi você.
         },
         {
             title: `Convocação`,
-            text: `Escrevo com a ponta do dedo Limpando a poeira do carro parado desde 1992 na Rua das Flores, onde tem aquela padaria que vende doces portugueses. Quantas letras será que tem a frase: Foge comigo? O suficiente para entender que este não é um pedido insano ou infactível. Louco ou tosto. Sem fundamento algum. Esta é uma convocação entre almas Livres A entrelaçar.`,
+            text: `Escrevo com a ponta do dedo
+
+Limpando a poeira do carro parado desde 1992 na Rua das Flores, onde tem aquela padaria que vende doces portugueses.
+
+Quantas letras será que tem a frase: Foge comigo?
+
+O suficiente para entender que este não é um pedido insano ou infactível. 
+Louco ou tosto.
+Sem fundamento algum.
+
+Esta é uma convocação entre almas
+Livres
+
+A entrelaçar.`,
             short_sentence: `Foge comigo?`
         },
         {
             title: `Jazz`,
-            text: `Eu te amo Mas eu nem sei o que fazer com isso. Toca um jazz que não lembro o nome no meu spotify. E com essa memória falha eu até já me esqueci que não posso te pensar tanto assim.`,
+            text: `Eu te amo
+Mas eu nem sei o que fazer com isso.
+
+
+Toca um jazz que não lembro o nome no meu spotify. 
+E com essa memória falha eu até já me esqueci que não posso te pensar tanto assim.`,
             short_sentence: `Eu te amo mas eu nem sei o que fazer com isso`
         },
         {
