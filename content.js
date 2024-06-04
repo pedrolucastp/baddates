@@ -14,8 +14,8 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
         description: `
             Após mais de 10 anos mergulhada em histórias de amor, desamores, flertes, paixões e desapaixões, decidi reunir os fragmentos e contos dos meus <i>Bad Dates</i> em um só lugar.
             Estas narrativas, escritas entre 2014 e 2020 e concluídas em maio de 2024, revelam as nuances dos meus relacionamentos de uma forma íntima e envolvente. 
-            Este livro é mais que uma coleção de textos; é uma jornada emocional que convida você a refletir sobre suas próprias experiências.`,
-        thanks: `Apoie esta iniciativa independente adquirindo o livro em versão digital ou impressa. Sua contribuição é essencial para que eu continue a compartilhar essas histórias.`,
+            Este livro é mais do que uma coleção de textos; é uma jornada emocional que convida você a refletir sobre suas próprias experiências.`,
+        thanks: `Apoie esta iniciativa independente adquirindo o livro em versão digital ou impressa. Sua contribuição é essencial para que eu continue a compartilhar o meu trabalho.`,
         buttonText: `Comprar o livro`,
         buttonLink: `https://a.co/d/gntafj7`,
         contact: ``
@@ -49,7 +49,7 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
         {
             title: `Atropelamento`,
             text: `“TU ÉS UM ATROPELAMENTO” Disse ele, tomando ristretto, num cafezinho de esquina, ao pôr do sol rosado do inverno europeu, ainda que fosse no Brasil. Um gole só. Mãos cruzadas, encostadas no queixo, cobrindo o nariz. Ar de superioridade de todo homem de classe média branco cis hétero que mora em Sao Paulo. Me olhando no olho. Coçando a barba. Ensaiando um riso. Abrindo o peito. Silenciando cons-tran-gedoramente. ABRE ASPAS: 'Não entendi?! Existem tantas maneiras de se atropelar.. Que tipo de atropelamento eu posso ser?' Falo com voz em riste. Ainda que não saiba se gosto ou não dessa nova demarcação 'territorial' que fizeram sobre a minha personalidade. Disse, ele, engasgado, ajeitando a voz naquele 'hum hum' básico para limpar a garganta e prendendo o ar na barriga para levantar os ombros… Que eu penso demais. Que eu falo demais. Que eu sinto demais. Que eu atropelo, passo por cima, quebro, Faço parar. E depois corro, em chamas... queimando as ruas e avenidas E até os espaços de dentro que nunca foram nomeados. Mas ele, que nasceu pra ser asfalto, se assusta quando tudo se deixa levar aos pedaços. Em um confronto de forças letais E ainda sim, onde se vê espetáculo... Ele, que, se contorcendo, entra em combustão. Que fala constantemente de coragem... No primeiro sinal, apavora. E o calor que derrete cera nunca fez Ícaro voar até o sol.`,
-            short_sentence: `Me olhando no olho. Coçando a barba.`
+            short_sentence: `Me olhando no olho.`
         },
         {
             title: `Arte`,
