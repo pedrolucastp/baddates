@@ -1,7 +1,6 @@
 let currentIndex = 0;
 const currentPage = localStorage.getItem('currentPage') || 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
-const heroInterval = 5000 //microseconds
 
 // Helper functions
 function setActiveNav(navId) {
@@ -30,6 +29,7 @@ function handleNavClick(navId, sectionId, renderFunction, resetCurrentPoem = fal
 // Home
 let lastIndex = -1;
 let heroTextInterval;
+const heroInterval = 5000 //microseconds
 
 function updateHeroText() {
     const heroTextElement = document.getElementById('carousel-text');
@@ -160,7 +160,17 @@ function renderAbout(container) {
                 <p>${content.about.description}</p>
                 <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
                 <p>${content.about.thanks}</p>
-                <p>${content.about.contact}</p>
+                <div class="social-icons">
+                <a href="${content.about.links.instagram.link}">
+                    <img src="${content.about.links.instagram.icon}" />
+                    <span>${content.about.links.instagram.title}</span>
+                </a>
+                <a href="${content.about.links.pinterest.link}">
+                    <img src="${content.about.links.pinterest.icon}">
+                    <span>${content.about.links.pinterest.title}</span>
+
+                </a>
+            </div>
             </div>
             <footer class="about-footer">
                 <p>&copy; 2024 para Estela de Pedro Lucas</p>

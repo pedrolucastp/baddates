@@ -8,6 +8,7 @@ const content = {
 Aos 14 anos já escrevia contos em seu blog e, durante os anos seguintes, continuou escrevendo em cadernos, folhas soltas, em suas redes sociais, até ter um de seus textos publicados no Flipei, o Barco Pirata da FLIP de 2019. 
 
 Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
+       
     },
     about: {
         intro: `BAD DATES`,
@@ -18,7 +19,18 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
         thanks: `Apoie esta iniciativa independente adquirindo o livro em versão digital ou impressa. Sua contribuição é essencial para que eu continue a compartilhar o meu trabalho.`,
         buttonText: `Comprar o livro`,
         buttonLink: `https://a.co/d/gntafj7`,
-        contact: ``
+        links: {
+            instagram: {
+                title:"",
+                link:"https://www.instagram.com/_baddates/",
+                icon:"/instagram.webp",
+            },
+            pinterest: {
+                title:"",
+                link:"https://br.pinterest.com/estelatdrocha/bad-dates-o-livro/",
+                icon:"/pinterest.png"
+            }
+        },
     },
     poems: [
         {

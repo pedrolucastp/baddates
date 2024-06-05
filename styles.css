@@ -234,7 +234,7 @@ main {
     gap: 20px;
 }
 
-.author img {
+#author-image {
     max-width: 40%;
     height: auto;
     border-radius: 3px;
@@ -253,6 +253,23 @@ main {
     font-size: 18px;
     line-height: 1.5;
 }
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    display: flex;
+    gap: 8px;
+    height: 20px;
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+}
+
+
 
 .about {
     display: flex;
@@ -321,7 +338,7 @@ main {
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     header h1 {
         font-size: 20px;
     }
@@ -352,7 +369,7 @@ main {
         flex-direction: column;
     }
 
-    .author img {
+    #author-image {
         max-width: 100%;
     }
 
