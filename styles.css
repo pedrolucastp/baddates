@@ -256,6 +256,7 @@ main {
 
 .social-icons {
     display: flex;
+    justify-content: center;
 }
 
 .social-icons a {
@@ -333,6 +334,10 @@ main {
     font-size: 13px;
 }
 
+.cover-image {
+    width: 30%;
+}
+
 .hidden {
     display: none;
 }
@@ -381,6 +386,9 @@ main {
     .about h2 {
         min-width: 100%;
         margin-bottom: 0;
+    }
+    .cover-image {
+        width: 100%;
     }
     .about-footer {
         margin-left: 0px;

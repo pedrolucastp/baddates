@@ -155,7 +155,7 @@ function renderAuthor(container) {
 function renderAbout(container) {
     container.innerHTML = `
         <section class="about" id="about">
-            <h2>${content.about.intro}</h2>
+            <img src="${content.about.cover}" class="cover-image"></img>
             <div>
                 <p>${content.about.description}</p>
                 <a href="${content.about.buttonLink}" class="buy-button" target="_blank">${content.about.buttonText}</a>
