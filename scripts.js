@@ -1,6 +1,7 @@
 let currentIndex = 0;
 const currentPage = localStorage.getItem('currentPage') || 'hero';
 const currentPoem = localStorage.getItem('currentPoem');
+const heroInterval = 5000 //microseconds
 
 // Helper functions
 function setActiveNav(navId) {
@@ -51,7 +52,7 @@ function renderHero(container) {
     `;
     updateHeroText();
     if (heroTextInterval) clearInterval(heroTextInterval); // Clear previous interval if exists
-    heroTextInterval = setInterval(updateHeroText, 3000);
+    heroTextInterval = setInterval(updateHeroText, heroInterval);
 }
 
 // Livro
@@ -194,7 +195,7 @@ function initializePage() {
     }
     setActiveNav(`nav-${currentPage}`);
     if (currentPage === 'hero') {
-        setInterval(updateHeroText, 3000);
+        setInterval(updateHeroText, heroInterval);
         updateHeroText();
     }
 }
