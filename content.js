@@ -801,37 +801,37 @@ til I find what matters most in life.
 O amor é um verbo. 
 Amar és un acto.`,
             short_sentence: `O amor é um verbo. Love is an act`
+    },
+    {
+            title: `Nudez`,
+            text: `E tudo isso, não é um tipo de nudez? 
+        
+        Eu estou aqui, 
+        agora.
+        
+        Nua, 
+        para você. 
+        
+        Todas as minhas palavras - sobre aquele tempo - foram delicadamente escolhidas,  desvestidas,  
+        banhadas,  
+        degustadas,  
+        mastigadas,  
+        engolidas,  
+        aspiradas  
+        e cuspidas. 
+        
+        Aqui,
+        agora.
+        
+        E ainda sim,  
+        não há nada que você saiba de mim
+        
+        que eu não queira te contar.
+        
+        
+        Toda nudez começa pelos dedos.
+        `,
+            short_sentence: `Não há nada que você saiba de mim que eu não queira te contar.`
         }
     ]
 }
-{
-            title: `Nudez`,
-            text: `E tudo isso, não é um tipo de nudez? 
-
-Eu estou aqui, 
-agora.
-
-Nua, 
-para você. 
-
-Todas as minhas palavras - sobre aquele tempo - foram delicadamente escolhidas,  desvestidas,  
-banhadas,  
-degustadas,  
-mastigadas,  
-engolidas,  
-aspiradas  
-e cuspidas. 
-
-Aqui,
-agora.
-
-E ainda sim,  
-não há nada que você saiba de mim
-
-					que eu não queira te contar.
- 
- 
-Toda nudez começa pelos dedos.
-`,
-            short_sentence: `ão há nada que você saiba de mim que eu não queira te contar.`
-        }
