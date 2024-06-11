@@ -14,10 +14,9 @@ Estela é mulher cis, mãe da Lina, ativista feminista e agora, escritora.`,
         intro: `BAD DATES`,
         cover: "cover-1.jpg",
         description: `
-            Após mais de 10 anos mergulhada em histórias de amor, desamores, flertes, paixões e desapaixões, decidi reunir os fragmentos e contos dos meus <i>Bad Dates</i> em um só lugar.
-            Estas narrativas, escritas entre 2014 e 2020 e concluídas em maio de 2024, revelam as nuances dos meus relacionamentos de uma forma íntima e envolvente. 
-            Este livro é mais do que uma coleção de textos; é uma jornada emocional que convida você a refletir sobre suas próprias experiências.`,
-        thanks: `Apoie esta iniciativa independente adquirindo o livro em versão digital ou impressa. Sua contribuição é essencial para que eu continue a compartilhar o meu trabalho.`,
+            Após mais de 10 anos mergulhada em histórias de amor, desamores, flertes, paixões e desapaixões, decidi reunir alguns fragmentos e contos dos meus <i>Bad Dates</i> em um só lugar.
+            Estas narrativas, escritas entre 2014 e 2020 e concluídas em maio de 2024, revelam nuances dos meus relacionamentos, sendo eles reais ou imaginados. Emprestados ou roubados. Mas sempre todos muito meus.`,
+        thanks: `Apoie esta iniciativa independente adquirindo o livro em versão digital no momento.`,
         buttonText: `Comprar o livro`,
         buttonLink: `https://a.co/d/gntafj7`,
         links: {
